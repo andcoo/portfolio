@@ -794,14 +794,6 @@ p.opener {
 	width:0;
 	}
 
-	/*.col-3-12 {
-	width: calc((100% - (12/4 - 1) * 12px) / 12 * 4);
-	}
-
-	.col-7-12 {
-	width: calc((100% - (12/8 - 1) * 12px) / 12 * 8);
-	}*/
-
 	.col-3-12 {
 		float: none;
 		width: 100%;
@@ -819,6 +811,10 @@ p.opener {
 	.col-10-12 {
 		float: none;
 		width: 100%;
+	}
+
+	p.para {
+		margin-top: 20px;
 	}
 
 }
