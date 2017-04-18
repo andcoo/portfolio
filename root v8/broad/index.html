@@ -1,0 +1,363 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+    	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta name="google" content="notranslate">
+      <meta http-equiv="Content-Language" content="en">
+
+    	<title>Andrew Cooper — Broad City</title>
+
+        <meta name="description" content="Andrew Cooper</u> is a digital designer based in Toronto. He specializes in type, 3D, motion, and ui/ux design.">
+
+        <meta name="keywords" content="andrew, cooper, andrew cooper, design, 3d, motion, type, ui, ux, product design, product designer, interaction designer, graphic design, graphic designer, toronto, canada, portfolio, interactive, interaction, typography, ysdn, york, sheridan, york sheridan">
+        
+        <!-- <meta name="viewport" content="width=555"> -->
+        
+    	<link rel="stylesheet" href="../css/style.css" type="text/css">
+    	<link rel="shortcut icon" href="../img/favicon.ico">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+
+
+        <script type="text/javascript">
+        window.addEventListener("beforeunload", function () {
+          //document.classList.add("animate-out");
+        });
+
+        </script>
+
+
+
+
+        <script type="text/javascript">
+
+        // Hide Header on on scroll down
+        var didScroll;
+        var lastScrollTop = 0;
+        var delta = 5;
+
+        $(window).scroll(function(event){
+            didScroll = true;
+        });
+
+        setInterval(function() {
+            if (didScroll) {
+                hasScrolled();
+                didScroll = false;
+            }
+        }, 250);
+
+        function hasScrolled() {
+            var st = $(window).scrollTop();
+            var navbarHeight = $("#header").height();
+            
+            // Make sure they scroll more than delta
+            if(Math.abs(lastScrollTop - st) <= delta)
+                return;
+            
+            // If they scrolled down and are past the navbar, add class .nav-up.
+            // This is necessary so you never see what is "behind" the navbar.
+            if (st > lastScrollTop && st > navbarHeight){
+                // Scroll Down
+                $("#header").removeClass('nav-down').addClass('nav-up');
+            } else {
+                // Scroll Up
+                if(st + $(window).height() < $(document).height()) {
+                    $("#header").removeClass('nav-up').addClass('nav-down');
+                }
+
+            }
+            
+            lastScrollTop = st;
+        }
+        
+        </script>
+
+        <script>
+            function showImages(el) {
+                var windowHeight = jQuery( window ).height();
+                $(el).each(function(){
+                    var thisPos = $(this).offset().top;
+
+                    var topOfWindow = $(window).scrollTop();
+                    if (topOfWindow + windowHeight - 200 > thisPos ) {
+                        $(this).addClass("fadeIn");
+                    }
+                });
+            }
+
+            // if the image in the window of browser when the page is loaded, show that image
+            $(document).ready(function(){
+                    showImages('.photo');
+            });
+
+            // if the image in the window of browser when scrolling the page, show that image
+            $(window).scroll(function() {
+                    showImages('.photo');
+            });
+        </script>
+
+        
+    </head>
+    
+  <body class="black">
+
+    <div id="header" class="nav-bar nav-down">
+
+      <div class="wrapper animate-in">
+        <nav class="space">
+          <div id="left">
+              <a class="glow" href="../index.html">
+              <div class="glow">
+              <!-- <span style="font-family: CormorantGaramond-Bold; font-size: 1.16rem;" margin> -->< All Work<!-- </span> -->
+              </div>
+              </a>
+          </div>
+          
+          <!-- <div id="center">
+              <a class="glow" href="../index.html">
+              <div class="glow">
+              ×
+              </div>
+              </a>
+          </div> -->
+
+          <div id="right">
+              <a class="glow" href="#">
+              <div class="glow">
+              Info
+              </div>
+              </a>
+          </div>
+        </nav>
+      </div>
+    </div>
+            
+
+    <div class="wrapper black animate-in">
+
+      <h5>Broad City</h5>
+      <h6>Title Sequence<br>
+      2017
+      </h6>
+      
+      <!-- <div id="hero"></div> -->
+
+        
+
+      <div class="row">
+        <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src="https://player.vimeo.com/video/161208605?color=0E0E0E&title=0&byline=0&portrait=0"   frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+      </div>
+
+      <!-- <div class="extra"></div> -->
+
+      <div class="row">
+          <div class="col-1-12">
+            &nbsp;
+          </div>
+          <div class="col-3-12">
+             <p class="title">Overview</p>
+          </div>
+          <div class="col-7-12">
+            <p class="para">
+            Broad City chronicles the misadventures of Abby and Alana, two young women struggling to navigate through the chaos of New York City. The original intro is simple, abstract, and changes every episode. While being short and sweet, I felt that it seemed to not communicate any of the themes of the show: feminism, sexuality, or drugs. Using the existing countdown music as a base, I briefly sketched some storyboards.
+            </p>
+          </div>    
+          <div class="col-1-12">
+            &nbsp;
+          </div>
+      </div>
+
+      <div class="row">
+          <div class="col-1-12">
+            &nbsp;
+          </div>
+          <div class="col-3-12">
+             <p class="title">Sketches</p>
+          </div>
+          <div class="col-7-12">
+            <p class="para">
+            My first idea was the least concrete. I wanted to create some kind of countdown made up objects that would transform from one number to the next. I wanted that object to represent at least one of the themes, but at the time I wasn’t sure what object would be suitable.<br><br>
+
+            The second idea was a countdown from the perspective of a taxi driving through New York City, narrowly avoiding cars shaped as numbers, eventually crashing to go up to heaven when the Broad City title resided. Through this idea I wanted to communicate a chaotic yet hilarious journey through NYC. Unfortunately I think this concept focused more on cars and NYC rather than the established themes. 
+            </p>
+          </div>    
+          <div class="col-1-12">
+            
+          </div>
+      </div>
+
+      <div class="row">
+        <div class="col-1-12">
+          &nbsp;
+        </div>
+        <div class="col-10-12">
+          <img class="photo" src="../img/broadsketch1.jpg"/>
+        </div>
+        <div class="col-1-12">
+          &nbsp;
+        </div>
+      </div>
+
+      <div class="row">
+          <div class="col-1-12">
+            &nbsp;
+          </div>
+          <div class="col-3-12">
+            &nbsp;
+          </div>
+          <div class="col-7-12">
+            <p class="para">
+            My third Idea focused on drug culture and transformed the countdown into an instructional video on how to roll a joint. This idea seemed to be the strongest to me initially, but then I realized that this would present the show as mainly a stoner comedy whereas marijuana was a smaller component of the show.<br><br>
+
+            Drawing back to the first concept as a basis, I thought the perfect metaphor for feminism and overt sexuality would be shots of dildos flying through New York. This was the route I chose because those themes were the most dominant in the show, and because it felt the most unexpectedly hilarious.
+
+            </p>
+          </div>    
+          <div class="col-1-12">
+            
+          </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col-1-12">
+          &nbsp;
+        </div>
+        <div class="col-10-12">
+          <img class="photo" src="../img/broadsketch2.jpg"/>
+        </div>
+        <div class="col-1-12">
+          &nbsp;
+        </div>
+      </div>
+
+    
+
+      <div class="row">
+          <div class="col-1-12">
+          &nbsp;
+          </div>
+          <div class="col-3-12">
+            <p class="title">Modelling</p>
+          </div>
+          <div class="col-7-12">
+            <p class="para">
+            Starting with subdivided primitives, I began sculpting a dildo, making sure to include all necessary details. Once I was satisfied with the geometry, I spline-wrapped the model to a bezier curve in the shape of numbers.
+            </p>
+          </div>    
+      </div>
+
+      
+
+
+      <div class="row">
+        <div class="col-1-12">
+          &nbsp;
+        </div>
+        <div class="col-10-12">
+          <img class="photo" src="../img/broadgeo.jpg"/>
+        </div>
+        <div class="col-1-12">
+          &nbsp;
+        </div>
+      </div>
+
+
+      <div class="row">
+          <div class="col-1-12">
+          &nbsp;
+          </div>
+          <div class="col-3-12">
+            <p class="title">Lighting & Textures</p>
+          </div>
+          <div class="col-7-12">
+            <p class="para">
+            For each scene, the dildos would alternate between four different 360° panoramas of New York City, each capturing a unique time and place. I experimented with various materials, but ultimately settled on a one with a subtle gradient because it created a fake subsurface-scattering effect (which my laptop normally wouldn’t be able to handle).
+            </p>
+          </div>    
+      </div>
+
+      <div class="row">
+        <div class="col-1-12">
+          &nbsp;
+        </div>
+        <div class="col-10-12">
+          <img class="photo" src="../img/rendertest.jpg"/>
+        </div>
+        <div class="col-1-12">
+          &nbsp;
+        </div>
+      </div>
+
+
+
+      <div class="row">
+          <div class="col-1-12">
+          &nbsp;
+          </div>
+          <div class="col-3-12">
+            <p class="title">Final Render</p>
+          </div>
+          <div class="col-7-12">
+            <p class="para">
+            Unfortunately, due to the limited power of my computer, I wasn’t able to render out the final video with high render settings. Below are frames with the render settings cranked up to the level I intended them to be in the video, as well as adjusted bump maps and reflectance.
+          </div>    
+      </div>
+
+      <div class="row">
+          <img class="photo" src="../img/broad.jpg"/>
+      </div>
+
+      <div class="row">
+          <img class="photo" src="../img/broad2.jpg"/>
+      </div>
+
+      <div class="row">
+          <img class="photo" src="../img/broad3.jpg"/>
+      </div>
+
+      
+
+      <div class="extra"></div>
+
+    <div class="dashline"></div>
+
+    <div class="footerwrap">
+    
+    <a href="#" class ="footerlink glow">
+    Collective App
+    </a>
+    <br>
+    <a href="#" class ="footerlink glow">
+    Neoblackletter
+    </a>
+    <br>
+    <a href="#" class ="footerlink glow">
+    Claw of Shame
+    </a>
+    <br>
+    <a href="#" class ="footerlink glow">
+    Broad City
+    </a>
+    <br>
+    <a href="#" class ="footerlink glow">
+    Miscellaneous Work
+    </a>
+    </div>
+     
+    <div class="social">
+
+        <a href="#" class ="footerlink glow">
+      Info<!-- &nbsp; &nbsp; &nbsp; &nbsp; -->
+      </a>
+    </div>
+    
+    
+      
+
+
+    </body>
+
+</html>

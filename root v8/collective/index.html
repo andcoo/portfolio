@@ -1,0 +1,348 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+    	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta name="google" content="notranslate">
+      <meta http-equiv="Content-Language" content="en">
+
+    	<title>Andrew Cooper — Collective</title>
+
+        <meta name="description" content="Andrew Cooper</u> is a digital designer based in Toronto. He specializes in type, 3D, motion, and ui/ux design.">
+
+        <meta name="keywords" content="andrew, cooper, andrew cooper, design, 3d, motion, type, ui, ux, product design, product designer, interaction designer, graphic design, graphic designer, toronto, canada, portfolio, interactive, interaction, typography, ysdn, york, sheridan, york sheridan">
+        
+        <!-- <meta name="viewport" content="width=555"> -->
+        
+    	<link rel="stylesheet" href="../css/style.css" type="text/css">
+    	<link rel="shortcut icon" href="../img/favicon.ico">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+
+
+        <script type="text/javascript">
+        window.addEventListener("beforeunload", function () {
+          //document.classList.add("animate-out");
+        });
+
+        </script>
+
+
+
+
+        <script type="text/javascript">
+
+        // Hide Header on on scroll down
+        var didScroll;
+        var lastScrollTop = 0;
+        var delta = 5;
+
+        $(window).scroll(function(event){
+            didScroll = true;
+        });
+
+        setInterval(function() {
+            if (didScroll) {
+                hasScrolled();
+                didScroll = false;
+            }
+        }, 250);
+
+        function hasScrolled() {
+            var st = $(window).scrollTop();
+            var navbarHeight = $("#header").height();
+            
+            // Make sure they scroll more than delta
+            if(Math.abs(lastScrollTop - st) <= delta)
+                return;
+            
+            // If they scrolled down and are past the navbar, add class .nav-up.
+            // This is necessary so you never see what is "behind" the navbar.
+            if (st > lastScrollTop && st > navbarHeight){
+                // Scroll Down
+                $("#header").removeClass('nav-down').addClass('nav-up');
+            } else {
+                // Scroll Up
+                if(st + $(window).height() < $(document).height()) {
+                    $("#header").removeClass('nav-up').addClass('nav-down');
+                }
+
+            }
+            
+            lastScrollTop = st;
+        }
+        
+        </script>
+
+        <script>
+            function showImages(el) {
+                var windowHeight = jQuery( window ).height();
+                $(el).each(function(){
+                    var thisPos = $(this).offset().top;
+
+                    var topOfWindow = $(window).scrollTop();
+                    if (topOfWindow + windowHeight - 200 > thisPos ) {
+                        $(this).addClass("fadeIn");
+                    }
+                });
+            }
+
+            // if the image in the window of browser when the page is loaded, show that image
+            $(document).ready(function(){
+                    showImages('.photo');
+            });
+
+            // if the image in the window of browser when scrolling the page, show that image
+            $(window).scroll(function() {
+                    showImages('.photo');
+            });
+        </script>
+
+        
+    </head>
+    
+  <body class="black">
+
+    <div id="header" class="nav-bar nav-down">
+
+      <div class="wrapper animate-in">
+        <nav class="space">
+          <div id="left">
+              <a class="glow" href="../index.html">
+              <div class="glow">
+              <!-- <span style="font-family: CormorantGaramond-Bold; font-size: 1.16rem;" margin> -->< All Work<!-- </span> -->
+              </div>
+              </a>
+          </div>
+          
+          <!-- <div id="center">
+              <a class="glow" href="../index.html">
+              <div class="glow">
+              ×
+              </div>
+              </a>
+          </div> -->
+
+          <div id="right">
+              <a class="glow" href="#">
+              <div class="glow">
+              Info
+              </div>
+              </a>
+          </div>
+        </nav>
+      </div>
+    </div>
+            
+
+    <div class="wrapper black animate-in">
+
+      <h5>Collective</h5>
+      <h6>App / Interactive Experience<br>
+      2017
+      </h6>
+      
+      <!-- <div id="hero"></div> -->
+
+        
+
+      <div class="row">
+        <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src="https://player.vimeo.com/video/211812539?color=0E0E0E&title=0&byline=0&portrait=0"   frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+      </div>
+
+      <div class="row">
+          <div class="col-1-12">
+            &nbsp;
+          </div>
+          <div class="col-3-12">
+            <p class="title">Synopsis</p>
+          </div>
+          <div class="col-7-12">
+            <p class="para">
+            Good music and dance are key components in a successful party. A lack of engagement in the party can stem from the wrong music coupled with the fear of dancing. Collective allows for party-goers to have a say in the music gets played and allows for them to interact with dynamic visuals.
+          </div>    
+          <div class="col-1-12">
+            
+          </div>
+        </div>
+      
+      
+
+      <!-- <div class="row">
+          <div class="col-1-12">
+          &nbsp;
+          </div>
+          <div class="col-3-12">
+            <p class="title">Competitive Analysis</p>
+          </div>
+          <div class="col-7-12">
+            <p class="para">
+            I opted to use masonite to create the woodblock type, which proved to be inexpensive and effective at holding ink. Each block was made of 4 layers of masonite—three layers for the base and the fourth layer for the raised letterform. To ensure proper registration when assembling each woodblock, I used the surrounding masonite as a guide, clamping it to the base layers.
+            </p>
+          </div>    
+      </div>
+ -->
+      
+
+      <div class="row">
+          <div class="col-1-12">
+          &nbsp;
+          </div>
+          <div class="col-3-12">
+            <p class="title">Key Features</p>
+          </div>
+          <div class="col-7-12">
+            <p class="para">
+            Understanding that music and dance are essential components in social gatherings, I examined applications in the realm of interactive dance. What I found was these dancing applications were limited by:<br><br>
+            <b>1. The focus on level completion</b><br>
+                The aspect of level completion isn’t necessarily negative, but I think for the application to be successful in a party setting, it needed to be more casual and inviting. By eliminating the competitive aspect, anyone can join in at any time and the flow of music could be more continuous.<br><br>
+
+            <b>2. The music selection & discoverability</b><br>
+                By allowing users to add songs from their library, the experience becomes more engaging and personal, while the added feature of voting democratizes it.<br><br>
+
+            <b>3. Social interaction</b><br>
+                Simply put, people connect over music. To aid in the process, users get notified when others like their song (saving that song a personal list). Furthermore, it helps everyone at the party gauge what genres are popular.
+ 
+            </p>
+          </div>    
+      </div>
+
+      <div class="row">
+          <div class="col-1-12">
+          &nbsp;
+          </div>
+          <div class="col-3-12">
+            <p class="title">Structure & User Flows</p>
+          </div>
+          <div class="col-7-12">
+            <p class="para">
+            The printing process was highly involved, requiring multiple trials to adjust the alignment and pressure of the machine.
+            </p>
+          </div>    
+      </div>
+
+      <div class="row">
+        <div class="col-1-12">
+          &nbsp;
+        </div>
+        <div class="col-10-12">
+          <img class="photo" src="../img/col_structure.svg"/>
+          <!-- <p class="caption">Click to view high-quality</p> -->
+        </div>
+        <div class="col-1-12">
+          &nbsp;
+        </div>
+      </div>
+
+
+
+      <div class="row">
+        <div class="col-1-12">
+          &nbsp;
+        </div>
+        <div class="col-10-12">
+          <img class="photo" src="../img/col_flow2.svg"/>
+          <!-- <p class="caption">Click to view high-quality</p> -->
+        </div>
+        <div class="col-1-12">
+          &nbsp;
+        </div>
+      </div>
+
+      <div class="row">
+          <div class="col-1-12">
+          &nbsp;
+          </div>
+          <div class="col-3-12">
+            <p class="title">Low-Fidelity Mockups</p>
+          </div>
+          <div class="col-7-12">
+            <p class="para">
+            I briefly sketched up some layouts and ideas for possible interactions and animations.
+            </p>
+          </div>    
+      </div>
+
+      <div class="row">
+        <div class="col-1-12">
+          &nbsp;
+        </div>
+        <div class="col-10-12">
+          <img class="photo" src="../img/col_sketches.jpg"/>
+        </div>
+        <div class="col-1-12">
+          &nbsp;
+        </div>
+      </div>
+
+      <div class="row">
+          <div class="col-1-12">
+          &nbsp;
+          </div>
+          <div class="col-3-12">
+            <p class="title">High-Fidelity Mockups</p>
+          </div>
+          <div class="col-7-12">
+            <p class="para">
+            The printing process was highly involved, requiring multiple trials to adjust the alignment and pressure of the machine.
+            </p>
+          </div>    
+      </div>
+
+      <div class="row">
+          <div class="col-1-12">
+          &nbsp;
+          </div>
+          <div class="col-3-12">
+            <p class="title">Dancing Visualizations</p>
+          </div>
+          <div class="col-7-12">
+            <p class="para">
+            The printing process was highly involved, requiring multiple trials to adjust the alignment and pressure of the machine. 
+            </p>
+          </div>    
+      </div>
+
+      
+
+      <div class="extra"></div>
+
+    <div class="dashline"></div>
+
+        <div class="footerwrap">
+        
+        <a href="#" class ="footerlink glow">
+        Collective App
+        </a>
+        <br>
+        <a href="#" class ="footerlink glow">
+        Neoblackletter
+        </a>
+        <br>
+        <a href="#" class ="footerlink glow">
+        Claw of Shame
+        </a>
+        <br>
+        <a href="#" class ="footerlink glow">
+        Broad City
+        </a>
+        <br>
+        <a href="#" class ="footerlink glow">
+        Miscellaneous Work
+        </a>
+        </div>
+         
+        <div class="social">
+
+            <a href="#" class ="footerlink glow">
+          Info<!-- &nbsp; &nbsp; &nbsp; &nbsp; -->
+          </a>
+        </div>
+    
+    
+      
+
+
+    </body>
+
+</html>

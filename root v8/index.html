@@ -1,0 +1,155 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+    	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    	<title>Andrew Cooper</title>
+
+        <meta name="description" content="Andrew Cooper</u> is a digital designer based in Toronto. He specializes in type, 3D, motion, and ui/ux design.">
+
+        <meta name="keywords" content="andrew, cooper, andrew cooper, design, 3d, motion, type, ui, ux, product design, product designer, interaction designer, graphic design, graphic designer, toronto, canada, portfolio, interactive, interaction, typography, ysdn, york, sheridan, york sheridan">
+        
+        <!-- <meta name="viewport" content="width=555"> -->
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        
+        <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Work+Sans" rel="stylesheet">
+    	<link rel="stylesheet" href="css/style.css" type="text/css">
+    	<link rel="shortcut icon" href="img/favicon.ico">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <script type="text/javascript">
+        window.addEventListener("beforeunload", function () {
+          document.classList.add("animate-out");
+        });
+
+        </script>
+
+        
+
+
+    </head>
+    
+    <body>
+
+    <!-- <div id="header" class="nav-bar nav-down">
+    This is your menu.
+    </div> -->
+        
+    <div id="mainfixed"></div>
+    
+        <div class="wrapper animate-in">
+
+             <h1><!-- <u> -->Andrew Cooper<!-- </u> --> is a digital designer based in Toronto.<br>
+            He specializes in type, 3D, motion, and ui/ux design.<!-- <a class="ast astglow" href="#">*</a> -->
+            </h1>
+
+
+        <div class="thesis">
+            <div class="badge-container">
+                <a href="#">
+                    <div class="badge">
+                        <img class="blur" src="img/thesis.jpg">
+                        <h4>10 000Hz.jpg
+                            <div class="dash"></div>
+                            <span style="font-size: 20px; font-family: WorkSans-Regular; font-weight: Semi Bold;">B.Des Thesis</span>
+                        </h4> 
+                    </div>
+                </a>
+            </div>
+        </div>
+
+            <div class="broad">
+                <div class="badge-container">
+                    <a href="broad/index.html">
+                        <div class="badge">
+                            <img class="blur" src="img/broad.jpg">
+                            <h4>Broad City
+                                <div class="dash"></div>
+                                <span style="font-size: 20px; font-family: WorkSans-Regular; font-weight: Semi Bold;">Title Sequence</span>
+                            </h4> 
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            
+
+            <div class="dashlinemain"></div>
+             
+            <div class="social">
+                <a href="http://www.instagram.com/coopiecoops" target='_blank' class="instagram glow">
+                        <i class="fa fa-instagram" style="font-size:24px"></i>
+                </a>
+                <a href="http://www.twitter.com/coopiecoops" target='_blank' class="twitter glow">
+                        <i class="fa fa-twitter" style="font-size:24px"></i>
+                </a>
+                <a href="http://www.dribbble.com/coopie" target='_blank' class="dribbble glow">
+                        <i class="fa fa-dribbble" style="font-size:24px"></i>
+                </a>
+                <a href="https://ca.linkedin.com/in/andrewacooper" target='_blank' class="linkedin glow">
+                        <i class="fa fa-linkedin" style="font-size:24px"></i>       
+                </a>
+            </div>
+
+            <a href="#" class ="footerlink glow">
+            About
+            </a>
+
+            <a href="#" class="footerlink glow" >
+            Email Me
+            </a>
+            </div>
+        
+     </div> <!-- wrapper -->
+
+                        
+
+                
+       
+
+    </body>
+
+    <script type="text/javascript">
+
+        // Hide Header on on scroll down
+        var didScroll;
+        var lastScrollTop = 0;
+        var delta = 5;
+
+        $(window).scroll(function(event){
+            didScroll = true;
+        });
+
+        setInterval(function() {
+            if (didScroll) {
+                hasScrolled();
+                didScroll = false;
+            }
+        }, 250);
+
+        function hasScrolled() {
+            var st = $(window).scrollTop();
+            var navbarHeight = $("#header").height();
+            
+            // Make sure they scroll more than delta
+            if(Math.abs(lastScrollTop - st) <= delta)
+                return;
+            
+            // If they scrolled down and are past the navbar, add class .nav-up.
+            // This is necessary so you never see what is "behind" the navbar.
+            if (st > lastScrollTop && st > navbarHeight){
+                // Scroll Down
+                $("#header").removeClass('nav-down').addClass('nav-up');
+            } else {
+                // Scroll Up
+                //if(st + $(window).height() < $(document).height()) {
+                    $("#header").removeClass('nav-up').addClass('nav-down');
+                //}
+
+            }
+            
+            lastScrollTop = st;
+        }
+        
+        </script>
+</html>
