@@ -12,7 +12,7 @@
 
 @font-face {
 	font-family: CormorantCormorantGaramond-SemiBold;
-    src: url(../src/CormorantGaramond-SemiBold.ttf);
+    src: url(../src/CormorantGaramond-SemiBold.otf);
 }
 
 
@@ -585,7 +585,7 @@ h4 {
 p.para {
 	/*font-family: 'Work Sans', sans-serif;*/
 	font-family: WorkSans-Light;
-	font-weight: 200;
+	font-weight: 100;
 	font-size: 1.3rem;
 	color: #FFB1D5;
 	line-height: 150%;
