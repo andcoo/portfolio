@@ -549,6 +549,7 @@ h5 {
 	margin-top: 40px;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%
 } 
 
 h6 {
@@ -565,6 +566,7 @@ h6 {
 	margin-bottom: 40px;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%
 } 
 
 h4 {
@@ -580,6 +582,7 @@ h4 {
 
 	padding-right: 15px;
 	margin-top: 119px;
+	-webkit-text-size-adjust: 100%
 }
 
 p.para {
@@ -591,6 +594,7 @@ p.para {
 	line-height: 150%;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%
 
 	margin-top: 120px;
 	margin-bottom: 40px;
