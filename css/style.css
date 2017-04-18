@@ -588,8 +588,8 @@ h6 {
 	text-align: center;
 	margin-top: -2px;
 	margin-bottom: 40px;
-	/*-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;*/
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 } 
 
 p.title {
@@ -600,8 +600,8 @@ p.title {
 	/*font-weight: SemiBold;*/
 	font-weight: 100;
 	line-height: 123%;
-/*	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;*/
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 
 	padding-right: 15px;
 	margin-top: 119px;
