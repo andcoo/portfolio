@@ -815,6 +815,7 @@ p.opener {
 
 	p.para {
 		margin-top: 20px;
+		margin-bottom: 0px;
 	}
 
 	p.title {
