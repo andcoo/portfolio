@@ -547,12 +547,12 @@ h4 {
 h5 {
 	/*Project — Title */
 	/*margin-top: 0px;*/
-	font-family: CormorantGaramond-SemiBold;
-	/*font-family: 'Cormorant Garamond', serif;*/
+	/*font-family: CormorantGaramond-SemiBold;*/
+	font-family: 'Cormorant Garamond', serif;
 	font-size: 1.55rem;
 	/*color: #27FFCF;*/
 	color: #FFB1D5;
-	font-weight: 0;
+	font-weight: 100;
 	line-height: 150%;
 	text-align: center;
 	margin-top: 40px;
@@ -594,7 +594,7 @@ p.title {
 p.para {
 	font-family: 'Work Sans', sans-serif;
 	/*font-family: WorkSans-Light;*/
-	font-weight: lightest;
+	font-weight: 100;
 	font-size: 1.3rem;
 	color: #FFB1D5;
 	line-height: 150%;
