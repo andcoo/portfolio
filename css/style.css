@@ -789,7 +789,7 @@ p.opener {
 
 	}*/
 	.col-1-12 {
-	width: 0;
+	display: none;
 	}
 
 	.col-3-12 {
