@@ -597,12 +597,10 @@ p.para {
 	font-size: 1.3rem;
 	color: #FFB1D5;
 	line-height: 150%;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	
-
 	margin-top: 120px;
 	margin-bottom: 40px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 p.caption {
