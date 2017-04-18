@@ -805,11 +805,15 @@ p.opener {
 	.col-3-12 {
 		float: none;
 		width: 100%;
+		padding-left:15%;
+		padding-right:15%;
 	}
 
 	.col-7-12 {
 		float: none;
 		width: 100%;
+		padding-left:15%;
+		padding-right:15%;
 	}
 
 	.col-10-12 {
