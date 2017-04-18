@@ -804,15 +804,18 @@ p.opener {
 
 	.col-3-12 {
 		float: none;
-		margin-left: calc((100% - (12/2.5 - 1) * 12px) / 12 * 2.5);
 		width: 100%;
 	}
 
 	.col-7-12 {
 		float: none;
-		margin-left: calc((100% - (12/2.5 - 1) * 12px) / 12 * 2.5);
 		width: 100%;
-	}*/
+	}
+
+	.col-10-12 {
+		float: none;
+		width: 100%;
+	}
 
 }
 
