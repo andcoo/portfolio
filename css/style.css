@@ -15,11 +15,11 @@
     src: url(../src/CormorantGaramond-SemiBold.otf);
 }
 
-@media screen and (max-device-width: 480px){
+/*@media screen and (max-device-width: 480px){
   body{
     -webkit-text-size-adjust: none;
   }
-}
+}*/
 
 * {
 	margin:0;
