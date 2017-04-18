@@ -575,7 +575,7 @@ h6 {
 } 
 
 p.title {
-	font-family: CormorantGaramond-SemiBold;
+	font-family: 'CormorantGaramond', serif;
 	font-size: 1.55rem;
 	color: #FFB1D5;
 	font-weight: normal;
@@ -588,7 +588,7 @@ p.title {
 }
 
 p.para {
-	font-family: WorkSans-Light;
+	font-family: 'Work Sans', sans-serif;
 	font-weight: normal;
 	font-size: 1.3rem;
 	color: #FFB1D5;
