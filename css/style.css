@@ -824,6 +824,16 @@ p.opener {
 
 }
 
+@media screen and (max-width: 680px) {
+	.col-3-12 {
+		padding-left:0%;
+		padding-right:0%;
+	}
+
+	.col-7-12 {
+		padding-left:0%;
+		padding-right:0%;
+	}
 
 
-
+}
