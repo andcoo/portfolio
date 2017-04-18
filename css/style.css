@@ -790,6 +790,7 @@ p.opener {
 	}*/
 	.col-1-12 {
 	display: none;
+	width:0;
 	}
 
 	.col-3-12 {
