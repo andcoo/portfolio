@@ -547,11 +547,12 @@ h4 {
 h5 {
 	/*Project — Title */
 	/*margin-top: 0px;*/
-	font-family: CormorantGaramond-SemiBold;
+	/*font-family: CormorantGaramond-SemiBold;*/
+	font-family: 'CormorantGaramond', serif;
 	font-size: 1.55rem;
 	/*color: #27FFCF;*/
 	color: #FFB1D5;
-	font-weight: normal;
+	font-weight: 600;
 	line-height: 150%;
 	text-align: center;
 	margin-top: 40px;
@@ -561,8 +562,9 @@ h5 {
 
 h6 {
 	/*Project — Project Subtitle */
-	font-family: WorkSans-Light;
-	font-weight: normal;
+	/*font-family: WorkSans-Light;*/
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 100;
 	font-size: 1.3rem;
 	/*color: #27FFCF;*/
 	color: #FFB1D5;
@@ -579,7 +581,8 @@ p.title {
 	/*font-family: CormorantGaramond-SemiBold;*/
 	font-size: 1.55rem;
 	color: #FFB1D5;
-	font-weight: SemiBold;
+	/*font-weight: SemiBold;*/
+	font-weight: 600;
 	line-height: 123%;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -591,7 +594,7 @@ p.title {
 p.para {
 	font-family: 'Work Sans', sans-serif;
 	/*font-family: WorkSans-Light;*/
-	font-weight: light;
+	font-weight: 100;
 	font-size: 1.3rem;
 	color: #FFB1D5;
 	line-height: 150%;
