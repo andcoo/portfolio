@@ -6,6 +6,11 @@
 }
 
 @font-face {
+    font-family: WorkSans-Medium;
+    src: url(../src/WorkSans-Medium.otf);
+}
+
+@font-face {
     font-family: WorkSans-SemiBold ;
     src: url(../src/WorkSans-SemiBold.otf);
 }
@@ -14,6 +19,8 @@
 	font-family: CormorantGaramond-SemiBold;
     src: url(../src/CormorantGaramond-SemiBold.ttf);
 }
+
+
 
 @media screen and (max-device-width: 480px){
   body{
