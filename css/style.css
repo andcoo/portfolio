@@ -1,4 +1,20 @@
-@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Work+Sans');
+/*@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Work+Sans');*/
+
+@font-face {
+    font-family: gteesti;
+    src: url(../src/WorkSans-Light.otf);
+}
+
+@font-face {
+    font-family: gteesti-italic;
+    src: url(../src/WorkSans-SemiBold.otf);
+}
+
+@font-face {
+	font-family: canela;
+    src: url(../src/CormorantGaramond-SemiBold.ttf);
+}
+
 
 * {
 	margin:0;
@@ -547,8 +563,8 @@ h4 {
 h5 {
 	/*Project — Title */
 	/*margin-top: 0px;*/
-	/*font-family: CormorantGaramond-SemiBold;*/
-	font-family: 'Cormorant Garamond', serif;
+	font-family: CormorantGaramond-SemiBold;
+	/*font-family: 'Cormorant Garamond', serif;*/
 	font-size: 1.55rem;
 	/*color: #27FFCF;*/
 	color: #FFB1D5;
@@ -562,8 +578,8 @@ h5 {
 
 h6 {
 	/*Project — Project Subtitle */
-	/*font-family: WorkSans-Light;*/
-	font-family: 'Work Sans', sans-serif;
+	font-family: WorkSans-Light;
+	/*font-family: 'Work Sans', sans-serif;*/
 	font-weight: 100;
 	font-size: 1.3rem;
 	/*color: #27FFCF;*/
@@ -577,8 +593,8 @@ h6 {
 } 
 
 p.title {
-	font-family: 'CormorantGaramond', serif;
-	/*font-family: CormorantGaramond-SemiBold;*/
+	/*font-family: 'CormorantGaramond', serif;*/
+	font-family: CormorantGaramond-SemiBold;
 	font-size: 1.55rem;
 	color: #FFB1D5;
 	/*font-weight: SemiBold;*/
@@ -592,8 +608,8 @@ p.title {
 }
 
 p.para {
-	font-family: 'Work Sans', sans-serif;
-	/*font-family: WorkSans-Light;*/
+	/*font-family: 'Work Sans', sans-serif;*/
+	font-family: WorkSans-Light;
 	font-weight: 200;
 	font-size: 1.3rem;
 	color: #FFB1D5;
