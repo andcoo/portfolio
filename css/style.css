@@ -780,6 +780,23 @@ p.opener {
 
 }
 
+/*MEDIA QUERIES*/
+
+@media screen and (max-width: 960px) {
+	/*.wrapper {
+	padding-left: 10%;
+	padding-right: 10%;
+
+	}*/
+	.col-1-12 {
+	width: 0;
+	}
+
+	.col-10-12 {
+	width: 100%;
+	}
+
+}
 
 
 
