@@ -822,6 +822,10 @@ p.opener {
 		margin-top: 80px;
 	}
 
+	h5 {
+		margin-top: 20px;
+	}
+
 }
 
 @media screen and (max-width: 680px) {
