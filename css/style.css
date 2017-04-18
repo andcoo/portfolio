@@ -582,7 +582,7 @@ p.title {
 	font-size: 1.55rem;
 	color: #FFB1D5;
 	/*font-weight: SemiBold;*/
-	font-weight: 100;
+	font-weight: 200;
 	line-height: 123%;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -594,7 +594,7 @@ p.title {
 p.para {
 	font-family: 'Work Sans', sans-serif;
 	/*font-family: WorkSans-Light;*/
-	font-weight: 100;
+	font-weight: 200;
 	font-size: 1.3rem;
 	color: #FFB1D5;
 	line-height: 150%;
