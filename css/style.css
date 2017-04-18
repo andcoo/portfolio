@@ -576,9 +576,10 @@ h6 {
 
 p.title {
 	font-family: 'CormorantGaramond', serif;
+	/*font-family: CormorantGaramond-SemiBold;*/
 	font-size: 1.55rem;
 	color: #FFB1D5;
-	font-weight: normal;
+	font-weight: SemiBold;
 	line-height: 123%;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -589,7 +590,8 @@ p.title {
 
 p.para {
 	font-family: 'Work Sans', sans-serif;
-	font-weight: normal;
+	/*font-family: WorkSans-Light;*/
+	font-weight: light;
 	font-size: 1.3rem;
 	color: #FFB1D5;
 	line-height: 150%;
