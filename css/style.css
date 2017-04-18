@@ -280,6 +280,32 @@ img {max-width:100%;}
 
 }
 
+h4 {
+	position:absolute; /*Main — Project Title */
+	font-family: CormorantGaramond-SemiBold;
+	font-size: 40px;
+	color: #FFB1D5;
+	/*line-height: 2.4vw;*/
+	line-height: 90%;
+    top:50%;
+    left:50%; 
+    width: 100%;
+    transform: translateX(-50%) translateY(-50%);
+    margin: 0;
+    text-align:center;
+    opacity: 0;
+    -webkit-transition: all ease 0.4s;
+    -moz-transition: all ease 0.4s;
+    -o-transition: all ease 0.4s;
+    -ms-transition: all ease 0.4s;
+    transition: all ease 0.4s;
+
+    -webkit-backface-visibility: hidden;
+
+    -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
 
 .badge:hover > h4 { opacity: 1; 
 	-webkit-transition: all ease 0.4s;
