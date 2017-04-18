@@ -788,7 +788,8 @@ p.opener {
 	padding-right: 10%;
 
 	}*/
-	.col-1-12 {
+
+	/*.col-1-12 {
 	display: none;
 	width:0;
 	}
@@ -799,6 +800,10 @@ p.opener {
 
 	.col-7-12 {
 	width: calc((100% - (12/8 - 1) * 12px) / 12 * 8);
+	}*/
+
+	.col-3-12 {
+		float: none;
 	}
 
 }
