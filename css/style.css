@@ -845,7 +845,7 @@ p.opener {
 	}
 
 	p.para {
-		padding-right: 1%;
+		padding-right: 2%;
 		font-size: 1.15rem;
 	}
 
@@ -860,8 +860,4 @@ p.opener {
 	h6 {
 		font-size:1.15rem; 
 	}
-
-
-
-
 }
