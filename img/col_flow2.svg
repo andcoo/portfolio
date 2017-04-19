@@ -50,17 +50,17 @@
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Artboard-Copy">
             <rect id="Rectangle" fill="#000000" x="-154" y="0" width="3136" height="1457"></rect>
-            <text id="Tap-on-Avatar" font-family="WorkSans-Medium, Work Sans" font-size="20" font-weight="400" line-spacing="30" fill="#FFFFFF">
+            <text id="Tap-on-Avatar" font-family="WorkSans-Regular, Work Sans" font-size="20" font-weight="normal" line-spacing="30" fill="#FFFFFF">
                 <tspan x="815" y="838">Tap on Avatar</tspan>
             </text>
-            <text id="User-Downloads-App" font-family="WorkSans-Medium, Work Sans" font-size="20" font-weight="400" line-spacing="30" fill="#FFFFFF">
+            <text id="User-Downloads-App" font-family="WorkSans-Regular, Work Sans" font-size="20" font-weight="normal" line-spacing="30" fill="#FFFFFF">
                 <tspan x="1217" y="174">User Downloads App</tspan>
             </text>
-            <text id="Enter-Room-4-Digit-C" font-family="WorkSans-Medium, Work Sans" font-size="20" font-weight="400" line-spacing="26" fill="#FFFFFF">
+            <text id="Enter-Room-4-Digit-C" font-family="WorkSans-Regular, Work Sans" font-size="20" font-weight="normal" line-spacing="26" fill="#FFFFFF">
                 <tspan x="1217" y="278">Enter Room 4-Digit Code</tspan>
                 <tspan x="1217" y="304">Enter Name</tspan>
             </text>
-            <text id="Success*" font-family="WorkSans-Light, Work Sans" font-size="20" font-weight="300" line-spacing="30" fill="#FFFFFF">
+            <text id="Success*" opacity="0.5" font-family="WorkSans-Light, Work Sans" font-size="20" font-weight="300" line-spacing="30" fill="#FFFFFF">
                 <tspan x="1217" y="408">Success*</tspan>
             </text>
             <text id="*If-the-user-is-firs" opacity="0.498833955" font-family="WorkSans-Light, Work Sans" font-size="20" font-weight="300" line-spacing="23" fill="#FFFFFF">
@@ -72,55 +72,55 @@
                 <tspan x="819" y="525">• remove people in the room</tspan>
                 <tspan x="819" y="548">• make others admin</tspan>
             </text>
-            <text id="•-Next-/-Previous-Tr" font-family="WorkSans-Light, Work Sans" font-size="20" font-weight="300" line-spacing="30" fill="#FFFFFF">
+            <text id="•-Next-/-Previous-Tr" opacity="0.5" font-family="WorkSans-Light, Work Sans" font-size="20" font-weight="300" line-spacing="30" fill="#FFFFFF">
                 <tspan x="1217" y="941">• Next / Previous Track</tspan>
                 <tspan x="1217" y="971">• Play Pause</tspan>
                 <tspan x="1217" y="1001">• Swipe right to delete</tspan>
                 <tspan x="1217" y="1031"></tspan>
             </text>
-            <text id="User’s-primary-music" font-family="WorkSans-Light, Work Sans" font-size="20" font-weight="300" line-spacing="30" fill="#FFFFFF">
+            <text id="User’s-primary-music" opacity="0.5" font-family="WorkSans-Light, Work Sans" font-size="20" font-weight="300" line-spacing="30" fill="#FFFFFF">
                 <tspan x="2015" y="941">User’s primary music </tspan>
                 <tspan x="2015" y="971">application opens in app.</tspan>
             </text>
-            <text id="Dropdown-countdown-b" font-family="WorkSans-Light, Work Sans" font-size="20" font-weight="300" line-spacing="30" fill="#FFFFFF">
+            <text id="Dropdown-countdown-b" opacity="0.5" font-family="WorkSans-Light, Work Sans" font-size="20" font-weight="300" line-spacing="30" fill="#FFFFFF">
                 <tspan x="2418" y="941">Dropdown countdown begins.</tspan>
             </text>
-            <text id="User-can-vote-on-any" font-family="WorkSans-Light, Work Sans" font-size="20" font-weight="300" line-spacing="30" fill="#FFFFFF">
+            <text id="User-can-vote-on-any" opacity="0.5" font-family="WorkSans-Light, Work Sans" font-size="20" font-weight="300" line-spacing="30" fill="#FFFFFF">
                 <tspan x="2418" y="1060">User can vote on any song </tspan>
                 <tspan x="2418" y="1090">before the countdown ends.</tspan>
             </text>
-            <text id="User’s-primary-music" font-family="WorkSans-Light, Work Sans" font-size="20" font-weight="300" line-spacing="30" fill="#FFFFFF">
+            <text id="User’s-primary-music" opacity="0.5" font-family="WorkSans-Light, Work Sans" font-size="20" font-weight="300" line-spacing="30" fill="#FFFFFF">
                 <tspan x="2015" y="1085">User’s primary music </tspan>
                 <tspan x="2015" y="1115">application opens in app. </tspan>
                 <tspan x="2015" y="1145">User selects songs.</tspan>
                 <tspan x="2015" y="1175"></tspan>
             </text>
-            <text id="Brings-up-card-with" font-family="WorkSans-Medium, Work Sans" font-size="20" font-weight="400" line-spacing="30" fill="#FFFFFF">
+            <text id="Brings-up-card-with" font-family="WorkSans-Regular, Work Sans" font-size="20" font-weight="normal" line-spacing="30" fill="#FFFFFF">
                 <tspan x="815" y="941">Brings up card with name, </tspan>
                 <tspan x="815" y="971">avatar, and played songs.</tspan>
                 <tspan x="815" y="1001"></tspan>
             </text>
-            <text id="Tap-on-each-song’s-m" font-family="WorkSans-Light, Work Sans" font-size="20" font-weight="300" line-spacing="30" fill="#FFFFFF">
+            <text id="Tap-on-each-song’s-m" opacity="0.5" font-family="WorkSans-Light, Work Sans" font-size="20" font-weight="300" line-spacing="30" fill="#FFFFFF">
                 <tspan x="815" y="1085">Tap on each song’s more </tspan>
                 <tspan x="815" y="1115">button:</tspan>
                 <tspan x="815" y="1145">• Like song</tspan>
                 <tspan x="815" y="1175">• View song in music library</tspan>
                 <tspan x="815" y="1205">• Add song to Notes</tspan>
             </text>
-            <text id="Tap-on-each-song’s-m" font-family="WorkSans-Light, Work Sans" font-size="20" font-weight="300" line-spacing="30" fill="#FFFFFF">
+            <text id="Tap-on-each-song’s-m" opacity="0.5" font-family="WorkSans-Light, Work Sans" font-size="20" font-weight="300" line-spacing="30" fill="#FFFFFF">
                 <tspan x="415" y="1085">Tap on each song’s more </tspan>
                 <tspan x="415" y="1115">button:</tspan>
                 <tspan x="415" y="1145">• View song in music library</tspan>
                 <tspan x="415" y="1175">• Add to notes</tspan>
                 <tspan x="415" y="1205">• Remove from list</tspan>
             </text>
-            <text id="Tap-on-person’s-more" font-family="WorkSans-Light, Work Sans" font-size="20" font-weight="300" line-spacing="30" fill="#FFFFFF">
+            <text id="Tap-on-person’s-more" opacity="0.5" font-family="WorkSans-Light, Work Sans" font-size="20" font-weight="300" line-spacing="30" fill="#FFFFFF">
                 <tspan x="14" y="1085">Tap on person’s more button:</tspan>
                 <tspan x="14" y="1115">• Make admin</tspan>
                 <tspan x="14" y="1145">• Mute</tspan>
                 <tspan x="14" y="1175">• Remove from Room</tspan>
             </text>
-            <text id="Good?" font-family="WorkSans-Light, Work Sans" font-size="20" font-weight="300" line-spacing="30" fill="#FFFFFF">
+            <text id="Good?" opacity="0.5" font-family="WorkSans-Light, Work Sans" font-size="20" font-weight="300" line-spacing="30" fill="#FFFFFF">
                 <tspan x="1217" y="618">Good?</tspan>
             </text>
             <text id="Failure" font-family="WorkSans-Light, Work Sans" font-size="20" font-weight="300" line-spacing="30" fill="#FF4343">
@@ -135,32 +135,32 @@
             <text id="No" font-family="WorkSans-Light, Work Sans" font-size="20" font-weight="300" line-spacing="30" fill="#FF4343">
                 <tspan x="1376" y="618">No</tspan>
             </text>
-            <text id="Take-Selfie" font-family="WorkSans-Medium, Work Sans" font-size="20" font-weight="400" line-spacing="30" fill="#FFFFFF">
+            <text id="Take-Selfie" font-family="WorkSans-Regular, Work Sans" font-size="20" font-weight="normal" line-spacing="30" fill="#FFFFFF">
                 <tspan x="1217" y="514">Take Selfie</tspan>
             </text>
-            <text id="Add-Song-to-Queue" font-family="WorkSans-Medium, Work Sans" font-size="20" font-weight="400" line-spacing="30" fill="#FFFFFF">
+            <text id="Add-Song-to-Queue" font-family="WorkSans-Regular, Work Sans" font-size="20" font-weight="normal" line-spacing="30" fill="#FFFFFF">
                 <tspan x="2015" y="838">Add Song to Queue</tspan>
             </text>
-            <text id="Voting-Process-Begin" font-family="WorkSans-Medium, Work Sans" font-size="20" font-weight="400" line-spacing="30" fill="#FFFFFF">
+            <text id="Voting-Process-Begin" font-family="WorkSans-Regular, Work Sans" font-size="20" font-weight="normal" line-spacing="30" fill="#FFFFFF">
                 <tspan x="2416" y="838">Voting Process Begins at End of Song</tspan>
             </text>
-            <text id="Home-(Settings)" font-family="WorkSans-Medium, Work Sans" font-size="20" font-weight="400" line-spacing="30" fill="#FFFFFF">
+            <text id="Home-(Settings)" font-family="WorkSans-Regular, Work Sans" font-size="20" font-weight="normal" line-spacing="30" fill="#FFFFFF">
                 <tspan x="415" y="838">Home (Settings)</tspan>
             </text>
-            <text id="Liked-Songs" font-family="WorkSans-Medium, Work Sans" font-size="20" font-weight="400" line-spacing="30" fill="#FFFFFF">
+            <text id="Liked-Songs" font-family="WorkSans-Regular, Work Sans" font-size="20" font-weight="normal" line-spacing="30" fill="#FFFFFF">
                 <tspan x="415" y="941">Liked Songs</tspan>
             </text>
-            <text id="People-in-Room" font-family="WorkSans-Medium, Work Sans" font-size="20" font-weight="400" line-spacing="30" fill="#FFFFFF">
+            <text id="People-in-Room" font-family="WorkSans-Regular, Work Sans" font-size="20" font-weight="normal" line-spacing="30" fill="#FFFFFF">
                 <tspan x="13" y="941">People in Room</tspan>
             </text>
-            <text id="Swipe-to-change-Danc" font-family="WorkSans-Medium, Work Sans" font-size="20" font-weight="400" line-spacing="30" fill="#FFFFFF">
+            <text id="Swipe-to-change-Danc" font-family="WorkSans-Regular, Work Sans" font-size="20" font-weight="normal" line-spacing="30" fill="#FFFFFF">
                 <tspan x="1617" y="838">Swipe to change </tspan>
                 <tspan x="1617" y="868">Dance Visualization</tspan>
             </text>
-            <text id="Song-Controls" font-family="WorkSans-Medium, Work Sans" font-size="20" font-weight="400" line-spacing="30" fill="#FFFFFF">
+            <text id="Song-Controls" font-family="WorkSans-Regular, Work Sans" font-size="20" font-weight="normal" line-spacing="30" fill="#FFFFFF">
                 <tspan x="1215" y="838">Song Controls</tspan>
             </text>
-            <text id="Main-Screen" font-family="WorkSans-Medium, Work Sans" font-size="36" font-weight="400" line-spacing="30" fill="#FFFFFF">
+            <text id="Main-Screen" font-family="WorkSans-Regular, Work Sans" font-size="36" font-weight="normal" line-spacing="30" fill="#FFFFFF">
                 <tspan x="1217" y="750">Main Screen</tspan>
             </text>
             <g id="Path-11">
@@ -194,7 +194,7 @@
             <polygon id="Path-13" stroke="#FF4343" stroke-width="2" fill="#FF4343" points="1255 249 1263 249 1259 253"></polygon>
             <polygon id="Path-13-Copy" stroke="#FFFFFF" stroke-width="2" fill="#FFFFFF" points="1217 249 1225 249 1221 253"></polygon>
             <polygon id="Path-13-Copy-2" stroke="#FFFFFF" stroke-width="2" fill="#FFFFFF" points="1217 380 1225 380 1221 384"></polygon>
-            <text id="Done" font-family="WorkSans-Light, Work Sans" font-size="20" font-weight="300" line-spacing="30" fill="#FFFFFF">
+            <text id="Done" opacity="0.5" font-family="WorkSans-Light, Work Sans" font-size="20" font-weight="300" line-spacing="30" fill="#FFFFFF">
                 <tspan x="2015" y="1254">Done</tspan>
             </text>
             <text id="Close" font-family="WorkSans-Light, Work Sans" font-size="20" font-weight="300" line-spacing="30" fill="#FF4343">

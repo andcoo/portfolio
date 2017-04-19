@@ -124,20 +124,20 @@
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Artboard-2-Copy">
             <rect id="Rectangle" fill="#000000" x="-180" y="-146" width="1769" height="1002"></rect>
-            <text id="Admin-Phone" font-family="WorkSans-SemiBold, Work Sans" font-size="20" font-weight="500" line-spacing="30" fill="#FFFFFF">
+            <text id="Admin-Phone" font-family="WorkSans-Regular, Work Sans" font-size="20" font-weight="normal" line-spacing="30" fill="#FFFFFF">
                 <tspan x="1" y="556">Admin Phone</tspan>
             </text>
-            <text id="Guest-Phones" font-family="WorkSans-SemiBold, Work Sans" font-size="20" font-weight="500" line-spacing="30" fill="#FFFFFF">
+            <text id="Guest-Phones" font-family="WorkSans-Regular, Work Sans" font-size="20" font-weight="normal" line-spacing="30" fill="#FFFFFF">
                 <tspan x="230" y="556">Guest Phones</tspan>
             </text>
-            <text id="Computer-w/-Desktop" font-family="WorkSans-SemiBold, Work Sans" font-size="20" font-weight="500" line-spacing="30" fill="#FFFFFF">
+            <text id="Computer-w/-Desktop" font-family="WorkSans-Regular, Work Sans" font-size="20" font-weight="normal" line-spacing="30" fill="#FFFFFF">
                 <tspan x="595" y="556">Computer w/ Desktop App</tspan>
             </text>
-            <text id="Kinect-V2-(With-Skel" font-family="WorkSans-SemiBold, Work Sans" font-size="20" font-weight="500" line-spacing="24" fill="#FFFFFF">
+            <text id="Kinect-V2-(With-Skel" font-family="WorkSans-Regular, Work Sans" font-size="20" font-weight="normal" line-spacing="24" fill="#FFFFFF">
                 <tspan x="1155" y="542">Kinect V2 </tspan>
                 <tspan x="1155" y="566" font-size="14">(With Skeleton Tracking)</tspan>
             </text>
-            <text id="External-Projector-/" font-family="WorkSans-SemiBold, Work Sans" font-size="20" font-weight="500" line-spacing="24" fill="#FFFFFF">
+            <text id="External-Projector-/" font-family="WorkSans-Regular, Work Sans" font-size="20" font-weight="normal" line-spacing="24" fill="#FFFFFF">
                 <tspan x="1155" y="255">External Projector / Monitor</tspan>
                 <tspan x="1155" y="279" font-size="14">(Optional)</tspan>
             </text>
