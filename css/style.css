@@ -620,6 +620,7 @@ p.title {
 
 	padding-right: 15px;
 	margin-top: 99px;
+	margin-bottom: 40px;
 	
 }
 
@@ -820,6 +821,7 @@ p.opener {
 
 	p.title {
 		margin-top: 80px;
+		margin-bottom: 0px;
 	}
 
 	h5 {
