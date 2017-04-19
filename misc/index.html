@@ -4,6 +4,7 @@
     	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
       <meta name="google" content="notranslate">
       <meta http-equiv="Content-Language" content="en">
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     	<title>Andrew Cooper — Miscellaneous</title>
 
@@ -15,22 +16,17 @@
         
     	<link rel="stylesheet" href="../css/style.css" type="text/css">
     	<link rel="shortcut icon" href="../img/favicon.ico">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
-
-
-        <script type="text/javascript">
+      <script type="text/javascript">
         window.addEventListener("beforeunload", function () {
           //document.classList.add("animate-out");
         });
 
-        </script>
+      </script>
 
-
-
-
-        <script type="text/javascript">
+      <script type="text/javascript">
 
         // Hide Header on on scroll down
         var didScroll;
@@ -72,31 +68,31 @@
             lastScrollTop = st;
         }
         
-        </script>
+      </script>
 
-        <script>
-            function showImages(el) {
-                var windowHeight = jQuery( window ).height();
-                $(el).each(function(){
-                    var thisPos = $(this).offset().top;
+      <script>
+          function showImages(el) {
+              var windowHeight = jQuery( window ).height();
+              $(el).each(function(){
+                  var thisPos = $(this).offset().top;
 
-                    var topOfWindow = $(window).scrollTop();
-                    if (topOfWindow + windowHeight - 200 > thisPos ) {
-                        $(this).addClass("fadeIn");
-                    }
-                });
-            }
+                  var topOfWindow = $(window).scrollTop();
+                  if (topOfWindow + windowHeight - 200 > thisPos ) {
+                      $(this).addClass("fadeIn");
+                  }
+              });
+          }
 
-            // if the image in the window of browser when the page is loaded, show that image
-            $(document).ready(function(){
-                    showImages('.photo');
-            });
+          // if the image in the window of browser when the page is loaded, show that image
+          $(document).ready(function(){
+                  showImages('.photo');
+          });
 
-            // if the image in the window of browser when scrolling the page, show that image
-            $(window).scroll(function() {
-                    showImages('.photo');
-            });
-        </script>
+          // if the image in the window of browser when scrolling the page, show that image
+          $(window).scroll(function() {
+                  showImages('.photo');
+          });
+      </script>
 
         
     </head>
