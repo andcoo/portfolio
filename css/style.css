@@ -272,7 +272,7 @@ img {max-width:100%;}
 }
 
 .dashline {
-	margin-top: 40px;
+	margin-top: 0px;
 	float:left;
 	width:100%;
 	border-bottom: 1px dotted #27FFCF;;
