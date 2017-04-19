@@ -272,7 +272,7 @@ img {max-width:100%;}
 }
 
 .dashline {
-	margin-top: 0px;
+	margin-top: 40px;
 	float:left;
 	width:100%;
 	border-bottom: 1px dotted #27FFCF;;
@@ -619,7 +619,7 @@ p.title {
 	-moz-osx-font-smoothing: grayscale;
 
 	padding-right: 15px;
-	margin-top: 39px;
+	margin-top: 119px;
 	
 }
 
@@ -630,7 +630,7 @@ p.para {
 	font-size: 1.3rem;
 	color: #FFB1D5;
 	line-height: 150%;
-	margin-top: 40px;
+	margin-top: 120px;
 	margin-bottom: 40px;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -814,13 +814,12 @@ p.opener {
 	}
 
 	p.para {
-		margin-top: 10px;
+		margin-top: 20px;
 		margin-bottom: 10px;
 	}
 
 	p.title {
 		margin-top: 80px;
-		margin-bottom: 10px;
 	}
 
 	h5 {
@@ -852,7 +851,6 @@ p.opener {
 
 	p.title {
 		font-size: 1.3rem;
-		margin-top: 20px;
 	}
 
 	h5 {
