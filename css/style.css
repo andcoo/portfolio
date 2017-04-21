@@ -742,6 +742,11 @@ p.opener {
 		margin: 0 0;
 	}
 
+	.col-4-12 {
+		
+		display: none;
+	}
+
 
 	p.para {
 		margin-top: 20px;
