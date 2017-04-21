@@ -406,7 +406,7 @@ h4 {
     -webkit-backface-visibility: hidden;
 }
 
-.badge:focus > .blur {
+.badge:active > .blur {
 	-webkit-transition: all ease 0.4s;
     -moz-transition: all ease 0.4s;
     -o-transition: all ease 0.4s;
