@@ -407,7 +407,7 @@ h4 {
 }
 
 
-.badge:hover, .badge:active > .blur {
+.badge:hover, .badge:focus > .blur {
 	-webkit-transition: all ease 0.4s;
     -moz-transition: all ease 0.4s;
     -o-transition: all ease 0.4s;
