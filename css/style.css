@@ -357,7 +357,7 @@ img {max-width:100%;}
 	margin-top:16px;
 	margin-bottom: 10px;
 	width:75%;
-	border-bottom: 1px solid #747279;
+	border-bottom: 1px dotted #747279;
 }
 
 
@@ -407,7 +407,7 @@ h4 {
 }
 
 
-.badge:hover, .badge:focus > .blur {
+.badge:hover > .blur {
 	-webkit-transition: all ease 0.4s;
     -moz-transition: all ease 0.4s;
     -o-transition: all ease 0.4s;
