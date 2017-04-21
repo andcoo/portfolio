@@ -6,6 +6,11 @@
 }
 
 @font-face {
+    font-family: WorkSans-Regular;
+    src: url(../src/WorkSans-Regular.otf);
+}
+
+@font-face {
     font-family: WorkSans-Medium;
     src: url(../src/WorkSans-Medium.otf);
 }
@@ -13,6 +18,11 @@
 @font-face {
     font-family: WorkSans-SemiBold ;
     src: url(../src/WorkSans-SemiBold.otf);
+}
+
+@font-face {
+	font-family: CormorantGaramond-Regular;
+    src: url(../src/CormorantGaramond-Regular.ttf);
 }
 
 @font-face {
