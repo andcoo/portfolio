@@ -406,18 +406,8 @@ h4 {
     -webkit-backface-visibility: hidden;
 }
 
-.badge:active > .blur {
-	-webkit-transition: all ease 0.4s;
-    -moz-transition: all ease 0.4s;
-    -o-transition: all ease 0.4s;
-    -ms-transition: all ease 0.4s;
-    transition: all ease 0.4s;
-	
-    opacity: 0.1;
-	-webkit-backface-visibility: hidden;
-}
 
-.badge:hover > .blur {
+.badge:hover, .badge:active > .blur {
 	-webkit-transition: all ease 0.4s;
     -moz-transition: all ease 0.4s;
     -o-transition: all ease 0.4s;
