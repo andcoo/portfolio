@@ -434,6 +434,12 @@ h5 {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 
+	-webkit-transition: all ease 0.4s;
+    -moz-transition: all ease 0.4s;
+    -o-transition: all ease 0.4s;
+    -ms-transition: all ease 0.4s;
+    transition: all ease 0.4s;
+
 } 
 
 h6 {
@@ -451,6 +457,12 @@ h6 {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	letter-spacing: -0.04rem;
+
+	-webkit-transition: all ease 0.4s;
+    -moz-transition: all ease 0.4s;
+    -o-transition: all ease 0.4s;
+    -ms-transition: all ease 0.4s;
+    transition: all ease 0.4s;
 	
 } 
 
@@ -469,6 +481,12 @@ h7 {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	letter-spacing: -0.04rem;
+
+	-webkit-transition: all ease 0.4s;
+    -moz-transition: all ease 0.4s;
+    -o-transition: all ease 0.4s;
+    -ms-transition: all ease 0.4s;
+    transition: all ease 0.4s;
 	
 } 
 
@@ -484,6 +502,12 @@ h8 {
 	line-height: 150%;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+
+	-webkit-transition: all ease 0.4s;
+    -moz-transition: all ease 0.4s;
+    -o-transition: all ease 0.4s;
+    -ms-transition: all ease 0.4s;
+    transition: all ease 0.4s;
 
 } 
 
@@ -501,6 +525,12 @@ p.title {
 	padding-right: 15px;
 	margin-top: 79px;
 	margin-bottom: 40px;
+
+	-webkit-transition: all ease 0.4s;
+    -moz-transition: all ease 0.4s;
+    -o-transition: all ease 0.4s;
+    -ms-transition: all ease 0.4s;
+    transition: all ease 0.4s;
 	
 }
 
@@ -516,6 +546,12 @@ p.para {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	letter-spacing: -0.5px;
+
+	-webkit-transition: all ease 0.4s;
+    -moz-transition: all ease 0.4s;
+    -o-transition: all ease 0.4s;
+    -ms-transition: all ease 0.4s;
+    transition: all ease 0.4s;
 }
 
 p.title2 {
@@ -531,6 +567,12 @@ p.title2 {
 
 	padding-right: 15px;
 	margin-top: 26px;
+
+	-webkit-transition: all ease 0.4s;
+    -moz-transition: all ease 0.4s;
+    -o-transition: all ease 0.4s;
+    -ms-transition: all ease 0.4s;
+    transition: all ease 0.4s;
 	
 	
 }
@@ -547,6 +589,12 @@ p.para2 {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	letter-spacing: -0.5px;
+
+	-webkit-transition: all ease 0.4s;
+    -moz-transition: all ease 0.4s;
+    -o-transition: all ease 0.4s;
+    -ms-transition: all ease 0.4s;
+    transition: all ease 0.4s;
 }
 
 p.caption {
@@ -562,6 +610,12 @@ p.caption {
 	margin-bottom: 0px;
 	text-align: center;
 	padding-right: 20px;
+
+	-webkit-transition: all ease 0.4s;
+    -moz-transition: all ease 0.4s;
+    -o-transition: all ease 0.4s;
+    -ms-transition: all ease 0.4s;
+    transition: all ease 0.4s;
 }
 
 
