@@ -340,7 +340,8 @@ nav {
 
 .badge-container {display:flex; flex-direction:row;} 
  
-.badge {position:relative;
+.badge {
+	position:relative;
 	-webkit-transition: all ease 0.4s;
     -moz-transition: all ease 0.4s;
     -o-transition: all ease 0.4s;
@@ -350,7 +351,9 @@ nav {
     -webkit-backface-visibility: hidden;
 }
 
-img {max-width:100%;}
+img {
+	max-width:100%;
+}
 
 .dash {
 	margin: 0px auto;
@@ -370,40 +373,72 @@ img {max-width:100%;}
 
 }
 
-h4 {
-	position:absolute; /*Main — Project Title */
-	font-family: CormorantGaramond-Regular;
-	font-size: 2.05rem;
-	color: #747279;
-	font-weight: 100;
-	line-height: 90%;
-    top:50%;
-    left:50%; 
-    width: 100%;
-    transform: translateX(-50%) translateY(-50%);
-    margin: 0;
-    text-align:center;
+.badge-hover {
+	position:absolute;
+	width: 100%;
+    height: 100%;
+    top: 0;
     opacity: 0;
     -webkit-transition: all ease 0.4s;
     -moz-transition: all ease 0.4s;
     -o-transition: all ease 0.4s;
     -ms-transition: all ease 0.4s;
     transition: all ease 0.4s;
-
     -webkit-backface-visibility: hidden;
+}
+
+.badge-center-content {
+	position:relative;
+	top:50%;
+	width:100%;
+	transform: translateX(0%) translateY(-50%);
+}
+
+.badge-center-content > h7 {
+	position: relative;
+	display:block;
+	text-align: center;
+	width:100%;
+}
+
+h4 {
+	 /*Main — Project Title */
+	font-family: CormorantGaramond-Regular;
+	font-size: 2.05rem;
+	color: #747279;
+	font-weight: 100;
+	line-height: 90%;
+    padding: 0;
+    text-align:center;
 
     -webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
 
-
-.badge:hover > h4 { opacity: 1; 
+.badge-hover:hover, .badge-hover.hover {
+	display:block;
+	opacity: 1; 
 	-webkit-transition: all ease 0.4s;
     -moz-transition: all ease 0.4s;
     -o-transition: all ease 0.4s;
     -ms-transition: all ease 0.4s;
     transition: all ease 0.4s;
     -webkit-backface-visibility: hidden;
+}
+
+/*.badge:hover > h4 { opacity: 1; 
+	
+}*/
+
+.blur {
+	-webkit-transition: all ease 0.4s;
+    -moz-transition: all ease 0.4s;
+    -o-transition: all ease 0.4s;
+    -ms-transition: all ease 0.4s;
+    transition: all ease 0.4s;
+	
+    opacity: 1;
+	-webkit-backface-visibility: hidden;
 }
 
 
@@ -468,6 +503,7 @@ h6 {
 
 h7 {
 	/*Project — Project Subtitle */
+	
 	font-family: WorkSans-Light;
 	/*font-family: 'Work Sans', sans-serif;*/
 	font-weight: 100;
@@ -475,7 +511,6 @@ h7 {
 	/*color: #27FFCF;*/
 	color: #747279;
 	line-height: 150%;
-	text-align: left;
 	margin-top: -4px;
 	margin-bottom: 40px;
 	-webkit-font-smoothing: antialiased;

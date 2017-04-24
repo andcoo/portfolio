@@ -67,6 +67,23 @@
           
           lastScrollTop = st;
       }
+
+
+      $(document).on("touchstart",function(e){
+        var touch = e.originalEvent.touches[0] || e.originalEvent.changedTouches[0];
+        console.log('touchstart'); 
+        
+        var link = $(this).find('.badge-hover'); //preselect the link 
+        console.log(link);
+        if (link.hasClass('hover')) {
+          return true;
+        } 
+        else {
+          link.addClass('hover');
+          $('.badge-hover').not(this).removeClass('hover');
+          return true; //extra, and to make sure the function has consistent return points
+        }
+      });
       
       </script>
 
@@ -137,10 +154,13 @@
                         <a href="collective">
                             <div class="badge">
                                 <img class="blur" src="img/col_dance.jpg">
-                                <h4>Collective
-                                    <div class="dash"></div>
-                                <h7>App / Experience</h7>
-                                </h4> 
+                                <div class="badge-hover">
+                                    <div class="badge-center-content">
+                                      <h4>Collective</h4>
+                                      <div class="dash"></div>
+                                      <h7>App / Experience</h7>
+                                    </div>
+                                </div> 
                             </div>
                         </a>
                 </div>
@@ -163,10 +183,13 @@
                         <a href="thesis">
                             <div class="badge">
                                 <img class="blur" src="img/blocks90.jpg">
-                                <h4>Neo Blackletter
-                                    <div class="dash"></div>
-                                <h7>Woodblock Type</h7>
-                                </h4> 
+                                <div class="badge-hover">
+                                    <div class="badge-center-content">
+                                      <h4>Neo Blackletter</h4> 
+                                      <div class="dash"></div>
+                                      <h7>Woodblock Type</h7>
+                                    </div>
+                                </div>
                             </div>
                         </a>
                     </div>
@@ -183,10 +206,13 @@
                         <a href="broad">
                             <div class="badge">
                                 <img class="blur" src="img/broad.jpg">
-                                <h4>Broad City
-                                    <div class="dash"></div>
-                                <h7>Title Sequence</h7>
-                                </h4> 
+                                <div class="badge-hover">
+                                    <div class="badge-center-content">
+                                      <h4>Broad City</h4> 
+                                      <div class="dash"></div>
+                                      <h7>Title Sequence</h7>
+                                    </div>
+                                </div>
                             </div>
                         </a>
                     </div>
@@ -205,10 +231,13 @@
                         <a href="misc">
                             <div class="badge">
                                 <img class="blur" src="img/mech1.jpg">
-                                <h4>Miscellaneous
-                                    <div class="dash"></div>
-                                <h7>Other Projects</h7>
-                                </h4> 
+                                <div class="badge-hover">
+                                    <div class="badge-center-content">
+                                      <h4>Miscellaneous</h4> 
+                                      <div class="dash"></div>
+                                      <h7>Other Projects</h7>
+                                    </div>
+                                </div>
                             </div>
                         </a>
                     </div>
