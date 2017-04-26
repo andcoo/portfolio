@@ -229,9 +229,9 @@ html, body {
 	/*border: 1px solid #000;*/
 	/*padding-right:20px;*/
 }
-[class*=col-]:last-of-type {
+/*[class*=col-]:last-of-type {
 	padding-right:0px;
-}
+}*/
 
 .col-1-12 {
 	width: calc((100% - (12/1 - 1) * 12px) / 12 * 1);
@@ -794,6 +794,10 @@ p.opener {
 	padding-left: 10%;
 	padding-right: 10%;
 
+	}*/
+
+	/*.row {
+		padding-top:0;
 	}*/
 
 	.width {
