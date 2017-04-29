@@ -357,7 +357,7 @@ img {
 
 .dash {
 	margin: 0px auto;
-	margin-top:16px;
+	margin-top:14px;
 	margin-bottom: 12px;
 	width:75%;
 	border-bottom: 1px dotted #747279;
@@ -922,6 +922,10 @@ p.opener {
 	}
 
 	h8 {
+		font-size:1.55rem; 
+	}
+
+	h4 {
 		font-size:1.55rem; 
 	}
 
