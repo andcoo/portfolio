@@ -558,7 +558,7 @@ h8 {
 
 p.title {
 	/*font-family: 'CormorantGaramond', serif;*/
-	font-family: CormorantGaramond-Light;
+	font-family: CormorantGaramond-Regular;
 	font-size: 1.35rem;
 	color: #747279;
 	/*font-weight: SemiBold;*/
@@ -601,7 +601,7 @@ p.para {
 
 p.title2 {
 	/*font-family: 'CormorantGaramond', serif;*/
-	font-family: CormorantGaramond-Light;
+	font-family: CormorantGaramond-Regular;
 	font-size: 1.35rem;
 	color: #747279;
 	/*font-weight: SemiBold;*/
