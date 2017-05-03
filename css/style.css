@@ -30,6 +30,11 @@
     src: url(../src/CormorantGaramond-SemiBold.ttf);
 }
 
+@font-face {
+	font-family: CormorantGaramond-Light;
+    src: url(../src/CormorantGaramond-Light.ttf);
+}
+
 
 @media screen and (max-device-width: 480px){
   body{
@@ -408,7 +413,7 @@ img {
 
 h4 {
 	 /*Main — Project Title */
-	font-family: CormorantGaramond-Regular;
+	font-family: CormorantGaramond-Light;
 	font-size: 2.05rem;
 	color: #747279;
 	font-weight: 100;
@@ -462,7 +467,7 @@ h4 {
 h5 {
 	/*Project — Title */
 	/*margin-top: 0px;*/
-	font-family: CormorantGaramond-Regular;
+	font-family: CormorantGaramond-Light;
 	/*font-family: 'Cormorant Garamond', serif;*/
 	font-size: 2.05rem;
 	/*color: #27FFCF;*/
@@ -533,7 +538,7 @@ h7 {
 h8 {
 	/*Project — Title */
 	/*margin-top: 0px;*/
-	font-family: CormorantGaramond-Regular;
+	font-family: CormorantGaramond-Light;
 	/*font-family: 'Cormorant Garamond', serif;*/
 	font-size: 2.05rem;
 	/*color: #27FFCF;*/
@@ -553,7 +558,7 @@ h8 {
 
 p.title {
 	/*font-family: 'CormorantGaramond', serif;*/
-	font-family: CormorantGaramond-SemiBold;
+	font-family: CormorantGaramond-Light;
 	font-size: 1.35rem;
 	color: #747279;
 	/*font-weight: SemiBold;*/
@@ -596,7 +601,7 @@ p.para {
 
 p.title2 {
 	/*font-family: 'CormorantGaramond', serif;*/
-	font-family: CormorantGaramond-SemiBold;
+	font-family: CormorantGaramond-Light;
 	font-size: 1.35rem;
 	color: #747279;
 	/*font-weight: SemiBold;*/
