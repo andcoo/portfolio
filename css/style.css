@@ -882,13 +882,13 @@ p.opener {
 	}
 
 	.col-3-12 {
-		padding-left:2%;
-		padding-right:2%;
+		padding-left:0%;
+		padding-right:0%;
 	}
 
 	.col-7-12 {
-		padding-left:2%;
-		padding-right:2%;
+		padding-left:0%;
+		padding-right:0%;
 	}
 
 	.col-6-12 {
@@ -900,8 +900,8 @@ p.opener {
 	}
 
 	.wrapper {
-		padding-left: 5%;
-		padding-right: 5%;
+		padding-left: 4%;
+		padding-right: 4%;
 	}
 
 	p.para {
