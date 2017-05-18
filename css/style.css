@@ -915,6 +915,17 @@ p.opener {
 		margin-top: 60px;
 	}
 
+	p.para2 {
+		
+		font-size: 1rem;
+		margin-bottom: 20px;
+	}
+
+	p.title2 {
+		font-size: 1.1rem;
+		margin-top: 60px;
+	}
+
 	p.caption {
 		margin-bottom: 20px;
 		margin-left: 0px;
