@@ -783,30 +783,25 @@ p.opener {
 	text-align: right;
 }
 
-.footerwrap::after {
+/*.footerwrap::after {
     content:"";
     display:table;
     clear:both;
-}
+}*/
 
 
 .social {
 	margin-top: 40px;
 	float: right;
-	margin-bottom: 40px;
 
 }
 
-.social::after {
-	content:"";
-    display:table;
-    clear:both;
-}
+
 
 .footerwrap {
 	float: left;
 	margin-top: 40px;
-	margin-bottom: 50px;
+	
 }
 
 .footerlink {
@@ -985,7 +980,4 @@ p.opener {
 		font-size: 1rem;
 	}
 
-	.footerwrap {
-		margin-bottom: 80px;
-	}
 }
