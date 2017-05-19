@@ -56,8 +56,9 @@ img.gif {
 	top:50%;
 	width: 80px;
 	height: 80px;
-	translate-x:;
-
+	-ms-transform: translate(-50%, -50%); /* IE 9 */
+    -webkit-transform: translate(-50%, -50%); /* Safari */
+    transform: translate(-50%, -50%);
 }
 
 u {
@@ -577,7 +578,7 @@ h8 {
 p.title {
 	/*font-family: 'CormorantGaramond', serif;*/
 	font-family: CormorantGaramond-SemiBold;
-	font-size: 1.35rem;
+	font-size: 1.3rem;
 	color: #747279;
 	/*font-weight: SemiBold;*/
 	font-weight: 100;
@@ -586,7 +587,7 @@ p.title {
 	-moz-osx-font-smoothing: grayscale;
 
 	padding-right: 15px;
-	margin-top: 79px;
+	margin-top: 80px;
 	margin-bottom: 40px;
 
 	-webkit-transition: all ease 0.4s;
@@ -620,7 +621,7 @@ p.para {
 p.title2 {
 	/*font-family: 'CormorantGaramond', serif;*/
 	font-family: CormorantGaramond-SemiBold;
-	font-size: 1.35rem;
+	font-size: 1.3rem;
 	color: #747279;
 	/*font-weight: SemiBold;*/
 	font-weight: 100;
