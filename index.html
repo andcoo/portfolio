@@ -109,10 +109,18 @@
           $(window).scroll(function() {
                   showImages('.photo');
           });
+
+          $(window).on('load', function() {
+               $(".loading").fadeOut("slow");
+          });
       </script>
   </head>
     
   <body class="black">
+
+    <div class="loading">
+      <img class="gif" src="../img/load.gif"/>
+    </div>
 
     <div id="header" class="nav-bar nav-down">
       <div class="wrapper animate-in">
