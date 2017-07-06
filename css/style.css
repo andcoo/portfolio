@@ -933,7 +933,6 @@ p.opener {
 	.col-4-12 {
 		float: none;
 		width: 100%;
-		max-width: 340px;
 	}
 
 	.wrapper {
