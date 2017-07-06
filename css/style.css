@@ -397,7 +397,7 @@ img {
 
 
 .dashline {
-	margin-top: 40px;
+	/*margin-top: 40px;*/
 	float:left;
 	width:100%;
 	border-bottom: 1px solid #D8D7DC;
@@ -591,7 +591,7 @@ p.title {
 
 	padding-right: 15px;
 	margin-top: 80px;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 
 	-webkit-transition: all ease 0.4s;
     -moz-transition: all ease 0.4s;
@@ -804,7 +804,7 @@ p.opener {
 
 .footerwrap {
 	float: left;
-	margin-top: 40px;
+	margin-top: 30px;
 	
 }
 
@@ -868,10 +868,10 @@ p.opener {
 		margin: 0 0;
 	}
 
-	.col-4-12 {
+	/*.col-4-12 {
 		
 		display: none;
-	}
+	}*/
 
 
 	p.para {
@@ -888,9 +888,7 @@ p.opener {
 		margin-top: 20px;
 	}
 
-	.row > [class*='col-'] {
-		margin: 0 0 0 0;
-	}
+	
 
 	.portrait {
 		margin-bottom: 52px;
@@ -899,6 +897,12 @@ p.opener {
 }
 
 @media screen and (max-width: 680px) {
+	/*REMOVES PADDING BETWEEN COLUMNS*/
+
+	.row > [class*='col-'] {
+		margin: 0 0 0 0;
+	}
+
 	.row {
 		padding:0 0;
 		margin: 0 0;
@@ -922,6 +926,16 @@ p.opener {
 		margin: 0 0;
 	}
 
+	.vert {
+		margin-bottom: 10px;
+	}
+
+	.col-4-12 {
+		float: none;
+		width: 100%;
+		max-width: 340px;
+	}
+
 	.wrapper {
 		padding-left: 4%;
 		padding-right: 4%;
@@ -934,7 +948,7 @@ p.opener {
 	}
 
 	p.title {
-		font-size: 1.16rem;
+		font-size: 1.2rem;
 		margin-top: 60px;
 	}
 
