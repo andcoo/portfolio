@@ -590,7 +590,7 @@ p.title {
 	-moz-osx-font-smoothing: grayscale;
 
 	padding-right: 15px;
-	margin-top: 80px;
+	margin-top: 100px;
 	margin-bottom: 20px;
 
 	-webkit-transition: all ease 0.4s;
@@ -608,7 +608,7 @@ p.para {
 	font-size: 1.15rem;
 	color: #747279;
 	line-height: 150%;
-	margin-top: 80px;
+	margin-top: 100px;
 	margin-bottom: 20px;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
