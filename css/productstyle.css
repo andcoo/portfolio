@@ -310,5 +310,10 @@ p.bodytext {
  		width: 100%;
  	}
 
+ 	.col-6-12 {
+ 		float: none;
+ 		width: 100%;
+ 	}
+
 
  }
