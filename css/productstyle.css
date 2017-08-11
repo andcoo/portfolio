@@ -286,9 +286,29 @@ p.bodytext {
  }
 
  @media screen and (max-width: 680px) {
+ 	.row > [class*='col-'] {
+ 		margin: 0 0 0 0;
+ 	}
+
+ 	.row {
+ 		padding:0 0;
+ 		margin: 0 0;
+ 	}
+
  	.col-4-12 {
  		float: none;
  		width: 100%;
  	}
+
+ 	.col-1-12 {
+ 		float: none;
+ 		width: 100%;
+ 	}
+
+ 	.col-8-12 {
+ 		float: none;
+ 		width: 100%;
+ 	}
+
 
  }
