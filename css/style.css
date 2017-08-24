@@ -585,8 +585,8 @@ h8 {
 
 p.title {
 	/*font-family: 'CormorantGaramond', serif;*/
-	font-family: CormorantGaramond-SemiBold;
-	font-size: 1.3rem;
+	font-family: CormorantGaramond-Medium;
+	font-size: 1.38rem;
 	color: #747279;
 	/*font-weight: SemiBold;*/
 	font-weight: 100;
@@ -595,7 +595,7 @@ p.title {
 	-moz-osx-font-smoothing: grayscale;
 
 	padding-right: 15px;
-	margin-top: 100px;
+	margin-top: 99px;
 	margin-bottom: 20px;
 
 	-webkit-transition: all ease 0.4s;
@@ -628,8 +628,8 @@ p.para {
 
 p.title2 {
 	/*font-family: 'CormorantGaramond', serif;*/
-	font-family: CormorantGaramond-SemiBold;
-	font-size: 1.3rem;
+	font-family: CormorantGaramond-Medium;
+	font-size: 1.38rem;
 	color: #747279;
 	/*font-weight: SemiBold;*/
 	font-weight: 100;
