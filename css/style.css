@@ -80,7 +80,7 @@ b {
 
 a {
 	color: #747279;
-	border-bottom: 1px dotted #747279;
+	border-bottom: 1px solid #747279;
     text-decoration: none;
     stroke-dashoffset: 50%;
 	-webkit-transition: all ease 0.4s;
@@ -95,7 +95,7 @@ a {
 
 a:hover {
 	color: #D8D7DC;
-	border-bottom: 1px dotted #D8D7DC;
+	border-bottom: 1px solid #D8D7DC;
     text-decoration: none;
 	-webkit-transition: all ease 0.4s;
     -moz-transition: all ease 0.4s;
@@ -397,7 +397,7 @@ img {
 	margin-top:13px;
 	margin-bottom: 11px;
 	width:100%;
-	border-bottom: 1px dotted #747279;
+	border-bottom: 1px solid #747279;
 }
 
 
@@ -405,7 +405,7 @@ img {
 	/*margin-top: 40px;*/
 	float:left;
 	width:100%;
-	border-bottom: 1px solid #D8D7DC;
+	border-bottom: 1px solid #747279;
 	stroke-dashoffset: 50%;
 
 }
