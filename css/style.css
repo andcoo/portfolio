@@ -265,6 +265,17 @@ h3 {
 	color: #FFF;
 	margin-left: -4px;
 	margin-top: 2px;
+	line-height: 100%;
+	/*line-height: 130%;*/
+}	
+
+h4 {
+	font-family: WorkSans-Light;
+	font-size: 46px;
+	line-height: 120%;
+	color: #FFF;
+	margin-left: -4px;
+	margin-top: 2px;
 	/*line-height: 100%;*/
 	line-height: 130%;
 }	
