@@ -1,411 +1,204 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-    <head>
-    	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-      <meta name="google" content="notranslate">
-      <meta http-equiv="Content-Language" content="en">
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
+<html xmlns="http://www.w3.org/1999/xhtml"/>
 
-    	<title>Andrew Cooper — Collective</title>
+<head>
+	<title>Andrew Cooper — Collective</title>
 
-        <meta name="description" content="Andrew Cooper</u> is a digital designer based in Toronto. He specializes in type, 3D, motion, and ui/ux design.">
+	<meta name="description" content="Andrew Cooper is a designer based in Toronto. He specializes in type, 3D, motion, and UI/UX."/>
 
-        <meta name="keywords" content="andrew, cooper, andrew cooper, design, 3d, motion, type, ui, ux, product design, product designer, interaction designer, graphic design, graphic designer, toronto, canada, portfolio, interactive, interaction, typography, ysdn, york, sheridan, york sheridan">
-        
-        <!-- <meta name="viewport" content="width=555"> -->
+	<meta name="keywords" content="andrew, cooper, andrew cooper, design, 3d, motion, type, ui, ux, product design, product designer, interaction designer, graphic design, graphic designer, toronto, canada, portfolio, interactive, interaction, typography, ysdn, york, sheridan, york sheridan"/>
 
-      <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Work+Sans" rel="stylesheet">
-    	<link rel="stylesheet" href="../css/style.css" type="text/css">
-    	<link rel="shortcut icon" href="../img/favicon.ico">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="google" content="notranslate"/>
+	<meta http-equiv="Content-Language" content="en"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="shortcut icon" href="../img/favicon.ico">
 
+	<link rel="stylesheet" href="../css/style.css" type="text/css"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
+	<script type="text/javascript">
+	    $(window).on('load', function() {
+	         $(".loading").fadeOut("slow");
+	    });
+	</script>
+</head>
 
-        <script type="text/javascript">
-        window.addEventListener("beforeunload", function () {
-          //document.classList.add("animate-out");
-        });
+<body>
+	<div class="loading">
+	  <img class="gif" src="../img/loadblack.gif"/>
+	</div>
+	<div class="fixed">
+		<div class="row smallspace">
+			<div class="col-5-12 width">
+				<h1>
+					<a class="textlink ac" href="../">Andrew Cooper</a>
+					<a class="textlink infomobi" href="../info">Info</a>
+				</h1>
+			</div>
+			<div class="col-7-12 width">
+				<h1><a class="textlink infohide" href="../info">Info</a></h1>
+			</div>
+		</div>
+	</div>
+	<div class="wrapper">
+		<div class="row medspace">
+			<div class="col-12-12 width">
+				<h3>
+					Collective<br>
+					Experiential App<br>
+					2017
+				</h3>
+			</div>
+		</div>
+		<div class="row smallspace">
+			<div class="col-5-12 width">.</div>
+			<div class="col-7-12 width">
+				<p class="bodytext">
+					A lack of engagement in a party can stem from the wrong music coupled with a fear of dancing. Collective is a proof-of-concept app which allows party-goers to have a say in the music that gets played and allows for interaction with dynamic visuals.
+				</p>
+			</div>
+		</div>
+		<div class="row space">
+			<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src="https://player.vimeo.com/video/211812539?color=0E0E0E&title=0&byline=0&portrait=0"   frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+		</div>
+		<div class="row space">
+			<div class="col-5-12 width">.</div>
+			<div class="col-7-12 width">
+				<p class="bodytext">
+					Various applications in the realm of interactive dance were examined and it was made apparent that these apps were limited by:<br><br>
 
-        </script>
+					<span class="lig">(1)</span> Focus on level completion<br>
+					In a party setting, an application/game needs to be more casual and inviting. By eliminating the competitive aspect, anyone can join in at any time and the flow of music can be more continuous.<br><br>
 
+					<span class="lig">(2)</span> Music selection & discoverability<br>
+					By allowing users to add songs from their libraries, the experience becomes more engaging and personal, while the added feature of voting democratizes it.<br><br>
 
-
-
-        <script type="text/javascript">
-
-        // Hide Header on on scroll down
-        var didScroll;
-        var lastScrollTop = 0;
-        var delta = 5;
-
-        $(window).scroll(function(event){
-            didScroll = true;
-        });
-
-        setInterval(function() {
-            if (didScroll) {
-                hasScrolled();
-                didScroll = false;
-            }
-        }, 250);
-
-        function hasScrolled() {
-            var st = $(window).scrollTop();
-            var navbarHeight = $("#header").height();
-            
-            // Make sure they scroll more than delta
-            if(Math.abs(lastScrollTop - st) <= delta)
-                return;
-            
-            // If they scrolled down and are past the navbar, add class .nav-up.
-            // This is necessary so you never see what is "behind" the navbar.
-            if (st > lastScrollTop && st > navbarHeight){
-                // Scroll Down
-                $("#header").removeClass('nav-down').addClass('nav-up');
-            } else {
-                // Scroll Up
-                if(st + $(window).height() < $(document).height()) {
-                    $("#header").removeClass('nav-up').addClass('nav-down');
-                }
-
-            }
-            
-            lastScrollTop = st;
-        }
-        
-        </script>
-
-        <script>
-            function showImages(el) {
-                var windowHeight = jQuery( window ).height();
-                $(el).each(function(){
-                    var thisPos = $(this).offset().top;
-
-                    var topOfWindow = $(window).scrollTop();
-                    if (topOfWindow + windowHeight - 200 > thisPos ) {
-                        $(this).addClass("fadeIn");
-                    }
-                });
-            }
-
-            // if the image in the window of browser when the page is loaded, show that image
-            $(document).ready(function(){
-                    showImages('.photo');
-            });
-
-            // if the image in the window of browser when scrolling the page, show that image
-            $(window).scroll(function() {
-                    showImages('.photo');
-            });
-
-            $(window).on('load', function() {
-                 $(".loading").fadeOut("slow");
-            });
-        </script>
-
-        
-    </head>
-    
-  <body class="black">
-
-    <div class="loading">
-      <img class="gif" src="../img/load.gif"/>
-    </div>
-
-    <div id="header" class="nav-bar nav-down">
-      <div class="wrapper animate-in">
-        <nav class="space">
-          <div id="left">
-              <a class="glow" href="../">
-              Work
-              </a>
-          </div>
-
-          <div id="right">
-              <a class="glow" href="../about">
-              Info
-              </a>
-          </div>
-        </nav>
-      </div>
-    </div>
-            
-
-    <div class="wrapper black animate-in">
-
-      <h5>Collective</h5>
-      <h6>App / Interactive Experience<br>
-      2017
-      </h6>
-      
-      <!-- <div id="hero"></div> -->
-
-        
-
-      <div class="row">
-        <!-- <div class="photo"> -->
-        <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src="https://player.vimeo.com/video/211812539?color=0E0E0E&title=0&byline=0&portrait=0"   frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
-        <!-- </div> -->
-      </div>
-
-      <div class="row">
-          <div class="col-1-12">
-            &nbsp;
-          </div>
-          <div class="col-3-12">
-            <p class="title">Synopsis</p>
-          </div>
-          <div class="col-7-12">
-            <p class="para">
-            A lack of engagement in a party can stem from the wrong music coupled with a fear of dancing. Collective is a proof-of-concept app which allows party-goers to have a say in the music that gets played and allows for interaction with dynamic visuals.
-          </div>    
-          <div class="col-1-12">
-            
-          </div>
-        </div>
-
-
-      <div class="row">
-          <div class="col-1-12">
-          &nbsp;
-          </div>
-          <div class="col-3-12">
-            <p class="title">Key Features</p>
-          </div>
-          <div class="col-7-12">
-            <p class="para">
-            I examined applications in the realm of interactive dance. What I found was these dancing applications were limited by:<br><br>
-
-            <span class="lig">(1)</span> Focus on level completion<br>
-            In a party setting, an application/game needs to be more casual and inviting. By eliminating the competitive aspect, anyone can join in at any time and the flow of music can be more continuous.<br><br>
-
-            <span class="lig">(2)</span> Music selection & discoverability<br>
-            By allowing users to add songs from their libraries, the experience becomes more engaging and personal, while the added feature of voting democratizes it.<br><br>
-
-            <span class="lig">(3)</span> Social interaction<br>
-            People connect over music. To aid in the process, users get notified when others like their song (saving that song a personal list). Furthermore, it helps everyone at the party gauge what genres are popular.
-            </p>
-          </div>    
-      </div>
-
-      <div class="row">
-          <div class="col-1-12">
-          &nbsp;
-          </div>
-          <div class="col-3-12">
-            <p class="title">Structure</p>
-          </div>
-          <div class="col-7-12">
-            <p class="para">
-            
-            </p>
-          </div>    
-      </div>
-
-      <div class="row">
-        <div class="col-1-12">
-          &nbsp;
-        </div>
-        <div class="col-10-12">
-          <img class="photo" src="../img/col_structure2.svg"/>
-        </div>
-        <div class="col-1-12">
-          &nbsp;
-        </div>
-      </div>
-
-      <div class="row">
-          <div class="col-1-12">
-          &nbsp;
-          </div>
-          <div class="col-3-12">
-            <p class="title">User Flows</p>
-          </div>
-          <div class="col-7-12">
-            <p class="para">
-           
-            </p>
-          </div>    
-      </div>
-
-      <div class="row">
-          <div class="col-1-12">
-            &nbsp;
-          </div>
-          <div class="col-10-12">
-          <img class="photo" src="../img/col_flow3.svg"/>
-          <p class="caption"><a href="../img/col_flow_big.jpg" target="_blank">Click here to view larger image.</a></p>
-          </div>
-          <div class="col-1-12">
-            &nbsp;
-          </div>
-      </div>
-
-      <div class="row">
-          <div class="col-1-12">
-          &nbsp;
-          </div>
-          <div class="col-3-12">
-            <p class="title">Low-Fidelity Mockups</p>
-          </div>
-          <div class="col-7-12">
-            <p class="para">
-            I briefly sketched up some layouts and ideas for possible interactions and animations.
-            </p>
-          </div>    
-      </div>
-
-      <div class="row">
-          <img class="photo" src="../img/col_sketches.jpg"/>
-      </div>
-
-      <div class="row">
-          <div class="col-1-12">
-          &nbsp;
-          </div>
-          <div class="col-3-12">
-            <p class="title">Join The Party</p>
-          </div>
-          <div class="col-7-12">
-            <p class="para">
-            Joining a room is easy. Simply type in the 4-digit code provided by the host's computer. Let people know who you are by taking a quick pic of yourself.
-            </p>
-          </div>    
-      </div>
-
-      <div class="row">
-          <div class="col-4-12">
-            <img class="photo vert" src="../img/col_login.jpg"/>
-          </div>
-          <div class="col-4-12">
-            <img class="photo vert" src="../img/col_takepic.jpg"/>
-          </div>
-          <div class="col-4-12">
-            <img class="photo" src="../img/col_reposition.jpg"/>
-          </div>    
-      </div>
-
-      
-
-      <div class="row">
-          <div class="col-1-12">
-          &nbsp;
-          </div>
-          <div class="col-3-12">
-            <p class="title">Save The Songs You Love</p>
-          </div>
-          <div class="col-7-12">
-            <p class="para">
-            If you like what you're hearing at the moment, tap on the heart icon to like/save a song. Tap on the home button in the lower left to access your liked songs. You can view them in your default music app, or add them to your notes. People are notified when their songs are liked. 
-            </p>
-          </div>    
-      </div>
-
-      <div class="row">
-          <div class="col-4-12">
-            <img class="photo vert" src="../img/col_like.jpg"/>
-          </div>
-          <div class="col-4-12">
-            <img class="photo vert" src="../img/col_likedsongs.jpg"/>
-          </div>
-          <div class="col-4-12">
-            <img class="photo" src="../img/col_likedmenu.jpg"/>
-          </div>    
-      </div>
-
-      <!-- <div class="extrahalf"></div> -->
-
-      <div class="row">
-          <div class="col-1-12">
-          &nbsp;
-          </div>
-          <div class="col-3-12">
-            <p class="title">Find People With Similar Tastes</p>
-          </div>
-          <div class="col-7-12">
-            <p class="para">
-            Tap on a user's icon to bring up a modal which shows all the previous songs they've added to the queue. 
-            </p>
-          </div>    
-      </div>
-
-      <div class="row">
-          <div class="col-4-12">
-            <img class="photo vert" src="../img/col_av.jpg"/>
-          </div>
-          <div class="col-4-12">
-            <img class="photo vert" src="../img/col_avmodal.jpg"/>
-          </div>
-          <div class="col-4-12">
-            <img class="photo" src="../img/col_avmodalmenu.jpg"/>
-          </div>    
-      </div>
-
-      <!-- <div class="extrahalf"></div> -->
-
-      <div class="row">
-          <div class="col-1-12">
-          &nbsp;
-          </div>
-          <div class="col-3-12">
-            <p class="title">Vote On Songs</p>
-          </div>
-          <div class="col-7-12">
-            <p class="para">
-            Nearing the end of each song, partygoers will have the ability to quickly vote on the songs they want to hear next. Once the time has ended, the most popular song is played. As admin, you can rearrange songs, or remove them entirely.
-            </p>
-          </div>    
-      </div>
-
-      <div class="row">
-          <div class="col-4-12">
-            <img class="photo vert" src="../img/col_vote.jpg"/>
-          </div>
-          <div class="col-4-12">
-            <img class="photo vert" src="../img/col_rearrange.jpg"/>
-          </div>
-          <div class="col-4-12">
-            <img class="photo" src="../img/col_delete.jpg"/>
-          </div>    
-      </div>
-
-      <div class="extrahalf"></div>
-      
-
-      <div class="row">
-        <img class="photo" src="../img/dance.gif"/>
-      </div>
-
-
-    <div class="extrahalf"></div>
-
-    <div class="dashline"></div>
-
-    <div class="footerwrap">
-      <!-- <a href="../collective" class ="footerlink glow">
-      Collective App
-      </a>
-      <br> -->
-      <a href="../thesis" class ="footerlink glow">
-      Neo Blackletter
-      </a>
-      <br>
-      <a href="../broad" class ="footerlink glow">
-      Broad City
-      </a>
-      <br>
-      <a href="../misc" class ="footerlink glow">
-      Miscellaneous Work
-      </a>
-    </div>
-     
-    <div class="social">
-        <a href="../about" class ="footerlink glow">
-          Info
-        </a>
-    </div>
-    <div style="clear: both;"></div>
-    <div class="extra"></div>
-    </body>
-</html>
+					<span class="lig">(3)</span> Social interaction<br>
+					People connect over music. To aid in the process, users get notified when others like their song (saving that song a personal list). Furthermore, it helps everyone at the party gauge what genres are popular.
+				</p>
+			</div>
+		</div>
+		<div class="row space">
+			<p class="bodytext">
+				Structure
+			</p>
+		</div>
+		<div class="row">
+			<div class="col-10-12 width">
+				<img class="pic smallspace" src="../img/collective/structure.svg"/>
+			</div>
+		</div>
+		<div class="row space">
+			<p class="bodytext">
+				User Flow
+			</p>
+		</div>
+		<div class="row">
+			<div class="col-10-12 width">
+				<img class="pic smallspace" src="../img/collective/flow.svg"/>
+			</div>
+		</div>
+		<div class="row space">
+			<div class="col-5-12 width">
+				<h3>Join the Party</h3>
+				<p class="bodytext">
+					<br>
+					Type in the 4-digit code provided by the host's computer to join the room. Let people know who you are by taking a quick pic of yourself.
+				</p>
+			</div>
+		</div>
+		<div class="row medspace">
+			<!-- <div class="col-2-12 width empty">.</div> -->
+			<div class="col-4-12 width">
+				<img class="pic round smallspace bright" src="../img/collective/login.jpg"/>
+			</div>
+			<div class="col-4-12 width">
+				<img class="pic round smallspace bright" src="../img/collective/takepic.jpg"/>
+			</div>
+			<div class="col-4-12 width">
+				<img class="pic round smallspace bright" src="../img/collective/reposition.jpg"/>
+			</div>
+		</div>
+		<div class="row space">
+			<div class="col-5-12 width">
+				<h3>Find People With Similar Tastes</h3>
+				<p class="bodytext">
+					<br>
+					Tap on a user's icon to bring up a modal which shows all the previous songs they've added to the queue.
+				</p>
+			</div>
+		</div>
+		<div class="row medspace">
+			<!-- <div class="col-2-12 width empty">.</div> -->
+			<div class="col-4-12 width">
+				<img class="pic round smallspace bright" src="../img/collective/liked.jpg"/>
+			</div>
+			<div class="col-4-12 width">
+				<img class="pic round smallspace bright" src="../img/collective/likedmenu.jpg"/>
+			</div>
+			<div class="col-4-12 width">
+				<img class="pic round smallspace bright" src="../img/collective/likedsongs.jpg"/>
+			</div>
+		</div>
+		<div class="row space">
+			<div class="col-5-12 width">
+				<h3>Save Songs</h3>
+				<p class="bodytext">
+					<br>
+					If you like what you're hearing, tap on the heart icon to like/save a song. Tap on the home button in the lower left to access your liked songs. You can view them in your default music app, or add them to your notes. People are notified when their songs are liked.
+				</p>
+			</div>
+		</div>
+		<div class="row medspace">
+			<!-- <div class="col-2-12 width empty">.</div> -->
+			<div class="col-4-12 width">
+				<img class="pic round smallspace bright" src="../img/collective/av.jpg"/>
+			</div>
+			<div class="col-4-12 width">
+				<img class="pic round smallspace bright" src="../img/collective/avmodal.jpg"/>
+			</div>
+			<div class="col-4-12 width">
+				<img class="pic round smallspace bright" src="../img/collective/avmodalmenu.jpg"/>
+			</div>
+		</div>
+		<div class="row space">
+			<div class="col-5-12 width">
+				<h3>Vote On Songs</h3>
+				<p class="bodytext">
+					<br>
+					Nearing the end of each song, partygoers can quickly vote on the songs they want to hear next. Once the time has ended, the most popular song is played. As admin, you can rearrange songs, or remove them entirely.
+				</p>
+			</div>
+		</div>
+		<div class="row medspace">
+			<!-- <div class="col-2-12 width empty">.</div> -->
+			<div class="col-4-12 width">
+				<img class="pic round smallspace bright" src="../img/collective/vote.jpg"/>
+			</div>
+			<div class="col-4-12 width">
+				<img class="pic round smallspace bright" src="../img/collective/rearrange.jpg"/>
+			</div>
+			<div class="col-4-12 width">
+				<img class="pic round smallspace bright" src="../img/collective/delete.jpg"/>
+			</div>
+		</div>
+		<div class="row space">
+			<div class="col-9-12 width">
+				<img class="pic round" src="../img/collective/dance.gif"/>
+			</div>
+		</div>
+		<footer>
+			<div class="row space">
+				<div class="col-5-12 width">
+					<p class="bodytext">
+						<a class="textlink" href="../3d">Next: 3D/Motion</a><br><br>
+						<a class="textlink" href="../type">Type</a><br>
+						<a class="textlink" href="../neo">Neo Blackletter, Woodblock Type</a><br>
+						<a class="textlink" href="../broad">Broad City, Title Sequence</a>
+					</p>
+				</div>
+			</div>
+		</footer>
+	</div>
+</body>
