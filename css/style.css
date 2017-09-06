@@ -277,7 +277,7 @@ h4 {
 	margin-left: -4px;
 	margin-top: 2px;
 	/*line-height: 100%;*/
-	line-height: 130%;
+	line-height: 120%;
 }	
 
 
@@ -285,7 +285,7 @@ p.bodytext {
 	font-family: WorkSans-Regular;
 	font-size: 18px;
 	color: #FFF;
-	line-height: 130%;
+	line-height: 120%;
 }
 
 ul {
@@ -512,7 +512,7 @@ footer {
 
 /*-------------------- MEDIA QUERIES ---------------------*/
 
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 1300px) {
  	p.bodytext {
  		font-size: 24px;
  	}
@@ -526,8 +526,18 @@ footer {
  	}
 
  	h3 {
- 		font-size: 72px;
+ 		font-size: 60px;
  	}
+
+ 	h4 {
+ 		font-size: 60px;
+ 	}
+
+ 	a.imagelink {
+ 		font-size: 24px;
+ 	}
+
+
  }
 
 
@@ -588,6 +598,10 @@ footer {
 	}
 
 	h3 {
+		font-size: 30px;
+	}
+
+	h4 {
 		font-size: 30px;
 	}
 
