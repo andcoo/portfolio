@@ -34,6 +34,28 @@
 	    this.pause();
 	});
 	</script>
+
+	<script type="text/javascript">
+	$.fn.isInViewport = function() {
+	  var elementTop = $(this).offset().top;
+	  var elementBottom = elementTop + $(this).outerHeight();
+
+	  var viewportTop = $(window).scrollTop();
+	  var viewportBottom = viewportTop + $(window).height();
+
+	  return elementBottom > viewportTop && elementTop < viewportBottom;
+	};
+
+	$(window).on('resize scroll', function() {
+	  $('video').each(function() {
+	    if ($(this).isInViewport()) {
+	      this.play();
+	    } else {
+	      this.pause();
+	    }
+	  });
+	});
+	</script>
 </head>
 
 <body>
@@ -73,7 +95,7 @@
 			<div class="col-1-12 width empty">.</div>
 			<div class="col-7-12 width">
 				<div class="smallspace">
-					<video id="myvideo2" autoplay loop width="100%" >
+					<video id="myvideo2" autoplay loop muted playsinline width="100%" >
 					  <source src="../img/3d/ofsinerainbow.mp4"/>
 					</video>
 				</div>
@@ -109,7 +131,7 @@
 		<div class="row space">
 			<div class="col-1-12 width empty">.</div>
 			<div class="col-11-12 width">
-				<video id="myvideo2" autoplay loop width="100%">
+				<video id="myvideo2" autoplay loop muted playsinline width="100%">
 					<source src="../img/3d/rubeyes.mp4"/>
 				</video>
 			</div>
@@ -141,7 +163,7 @@
 			<div class="col-1-12 width empty">.</div>
 			<div class="col-5-12 width">
 				<div class="smallspace">
-					<video id="myvideo2" autoplay loop width="100%">
+					<video id="myvideo2" autoplay loop muted playsinline width="100%">
 						<source src="../img/3d/expectations_blur.mp4"/>
 					</video>
 				</div>
@@ -170,7 +192,7 @@
 		</div>
 		<div class="row space">
 			<div class="col-11-12 width">
-				<video id="myvideo2" autoplay loop width="100%">
+				<video id="myvideo2" autoplay loop muted playsinline width="100%">
 					<source src="../img/3d/future.mp4"/>
 				</video>
 			</div>
