@@ -296,21 +296,21 @@ img.gif {
 }
 
 h1 {
-	font-family: Work Sans;
+	font-family: WorkSans-Regular;
 	font-size: 18px;
 	/*color: #000;*/
 	text-align: right;
 }
 
 h2 {
-	font-family: Work Sans;
+	font-family: WorkSans-Regular;
 	font-size: 72px;
 	/*color: #000;*/
 	margin-top: 140px;
 }
 
 h3 {
-	font-family: Work Sans;
+	font-family: WorkSans-Regular;
 	font-size: 42px;
 	/*color: #000;*/
 	margin-top: 100px;
@@ -318,7 +318,7 @@ h3 {
 }	
 
 h4 {
-	font-family: Work Sans;
+	font-family: WorkSans-Regular;
 	font-size: 144px;
 	line-height: 90%;
 	color: #000;
@@ -327,7 +327,7 @@ h4 {
 }
 
 h5 {
-	font-family: Work Sans;
+	font-family: WorkSans-Regular;
 	font-size: 18px;
 	margin-top: 12px;
 	/*color: #000;*/
@@ -354,7 +354,7 @@ h5 {
 }
 
 p.bodytext {
-	font-family: Work Sans;
+	font-family: WorkSans-Regular;
 	font-size: 28px;
 	/*color: #000;*/
 	margin-top: 50px;
@@ -368,7 +368,7 @@ p.bodytext {
 .super{
  vertical-align: super;
  font-size: 18px;
- font-family: Work Sans;
+ font-family: WorkSans-Regular;
  }
 
  b {
