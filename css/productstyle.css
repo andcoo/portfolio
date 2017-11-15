@@ -45,7 +45,15 @@ table {
 
 /*-------------------- GRID ---------------------*/
 
+@font-face {
+    font-family: WorkSans-Light;
+    src: url(../src/WorkSans-Light.otf);
+}
 
+@font-face {
+    font-family: WorkSans-Regular;
+    src: url(../src/WorkSans-Regular.otf);
+}
 
 /*  */
 *, *:after, *:before {
