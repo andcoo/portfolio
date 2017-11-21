@@ -561,6 +561,10 @@ footer {
  		padding-left: 4%;
  		padding-right: 4%;
  	}
+
+ 	li {
+		margin-left: 38px;
+	}
  }
 
  @media screen and (max-width: 860px) {
