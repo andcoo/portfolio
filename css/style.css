@@ -292,14 +292,16 @@ h4 {
 	line-height: 120%;
 }	
 
-h5 {
+
+
+textarea {
+	background-color: #000;
+	width: 100%;
+	height: 100%;
 	font-family: HNIR Extended;
 	font-size: 92px;
 	line-height: 170%;
 	color: #FFF;
-	margin-left: -4px;
-	margin-top: 2px;
-	/*line-height: 100%;*/
 }
 
 
@@ -466,7 +468,6 @@ span.lig {
 .ac {
 	float:left;
 }
-
 
 
 
