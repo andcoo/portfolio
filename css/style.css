@@ -52,6 +52,11 @@ table {
     src: url(../src/WorkSans-Regular.otf);
 }
 
+@font-face {
+    font-family: HNIR Extended;
+    src: url(../src/HNIRExtended-Regular.otf);
+}
+
 /*-------------------- HIDE VIDEO CONTROLS COMPLETELY ---------------------*/
 
 /*video::-webkit-media-controls {
@@ -287,6 +292,16 @@ h4 {
 	line-height: 120%;
 }	
 
+h5 {
+	font-family: HNIR Extended;
+	font-size: 92px;
+	line-height: 170%;
+	color: #FFF;
+	margin-left: -4px;
+	margin-top: 2px;
+	/*line-height: 100%;*/
+}
+
 
 p.bodytext {
 	font-family: WorkSans-Regular;
@@ -314,6 +329,8 @@ li {
  b {
  	font-weight: 600;
  }
+
+
 
  a.textlink {
  	/*color: #F6D8E7;*/
