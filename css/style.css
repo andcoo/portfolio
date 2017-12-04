@@ -313,8 +313,8 @@ textarea {
 	background-color: #000;
 	width: 100%;
 	font-family: HNIR Extended;
-	font-size: 92px;
-	line-height: 170%;
+	font-size: 72px;
+	line-height: 150%;
 	color: #FFF;
 
     -webkit-user-modify: read-write;
@@ -322,7 +322,7 @@ textarea {
     -webkit-line-break: after-white-space;
     display: block;
 
-    min-height: 156.4px;
+    min-height: 108px;
 }
 
 
@@ -607,8 +607,8 @@ footer {
 	}
 
 	#type {
-		font-size: 72px;
-		min-height: 122.4px;
+		font-size: 54px;
+		min-height: 81px;
 	}
  }
 
@@ -728,8 +728,8 @@ footer {
  	}
 
  	#type {
-		font-size: 54px;
-		min-height: 91.8px;
+		font-size: 48px;
+		min-height: 72px;
 	}
 }
 
@@ -741,7 +741,7 @@ footer {
 
 	#type {
 		font-size: 36px;
-		min-height: 61.2px;
+		min-height: 54px;
 	}
 
 
