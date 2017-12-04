@@ -558,7 +558,7 @@ footer {
 
 /*-------------------- MEDIA QUERIES ---------------------*/
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1300px) {
  	p.bodytext {
  		font-size: 24px;
  	}
