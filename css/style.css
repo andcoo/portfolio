@@ -249,11 +249,15 @@ img.gif {
 /*-------------------- TYPE ---------------------*/
 
 ::selection {
-  color: #FBFCC6;
+  color: black;
+  /*background: #FBFCC6;*/
+  background: #45FF40;
 
 }
 ::-moz-selection {
-  color: #FBFCC6;  
+  color: black;
+  /*background: #FBFCC6;*/
+  background: #45FF40;  
 }
 
 h1 {
@@ -297,11 +301,28 @@ h4 {
 textarea {
 	background-color: #000;
 	width: 100%;
-	height: 100%;
 	font-family: HNIR Extended;
 	font-size: 92px;
 	line-height: 170%;
 	color: #FFF;
+	resize:none;
+	border: none;
+}
+
+#type {
+	background-color: #000;
+	width: 100%;
+	font-family: HNIR Extended;
+	font-size: 92px;
+	line-height: 170%;
+	color: #FFF;
+
+    -webkit-user-modify: read-write;
+    word-wrap: break-word;
+    -webkit-line-break: after-white-space;
+    display: block;
+
+    min-height: 156.4px;
 }
 
 
@@ -537,7 +558,7 @@ footer {
 
 /*-------------------- MEDIA QUERIES ---------------------*/
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1400px) {
  	p.bodytext {
  		font-size: 24px;
  	}
@@ -583,6 +604,11 @@ footer {
 
  	li {
 		margin-left: 38px;
+	}
+
+	#type {
+		font-size: 72px;
+		min-height: 122.4px;
 	}
  }
 
@@ -701,13 +727,24 @@ footer {
  		width: 100%;
  	}
 
+ 	#type {
+		font-size: 54px;
+		min-height: 91.8px;
+	}
+}
+
 @media screen and (max-width: 500px) {
 	
 	.bodytext {
 		width: 100%;
 	}
 
-}
+	#type {
+		font-size: 36px;
+		min-height: 61.2px;
+	}
 
 
 }
+
+
