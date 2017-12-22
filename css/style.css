@@ -445,6 +445,12 @@ img.pic {
 	height: auto;
 }
 
+img.miru {
+	width: 140px;
+	height: auto;
+	float: right;
+}
+
 span.lig {
 	font-feature-settings: "kern" 1, "liga" 1, "dlig";
 	font-variant-ligatures: discretionary-ligatures;
