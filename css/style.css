@@ -231,6 +231,10 @@ img.gif {
 	overflow: hidden;
 }
 
+.oval {
+	border-radius: 100%;
+}
+
 .bright {
 	-webkit-filter: contrast(87%); 
 }
