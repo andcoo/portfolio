@@ -484,6 +484,10 @@ span.lig {
 	margin-bottom: 12px;
 }
 
+.bsmallspaceoval {
+	margin-bottom: 6px;
+}
+
 .round {
 	border-radius: 4px;
 }
