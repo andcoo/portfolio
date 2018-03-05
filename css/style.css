@@ -337,7 +337,7 @@ textarea {
     -webkit-line-break: after-white-space;
     display: block;
 
-    min-height: 108px;
+    min-height: 123px;
 }
 
 #typetwo {
@@ -345,7 +345,7 @@ textarea {
 	width: 100%;
 	font-family: Onet Regular;
 	font-size: 82px;
-	line-height: 150%;
+	line-height: 140%;
 	color: #F2EB99;
 
     -webkit-user-modify: read-write;
@@ -353,7 +353,7 @@ textarea {
     -webkit-line-break: after-white-space;
     display: block;
 
-    min-height: 108px;
+    min-height: 115px;
 }
 
 #typethree {
@@ -361,7 +361,7 @@ textarea {
 	width: 100%;
 	font-family: Half;
 	font-size: 82px;
-	line-height: 150%;
+	line-height: 140%;
 	color: #8b5efc;
 
     -webkit-user-modify: read-write;
@@ -369,7 +369,7 @@ textarea {
     -webkit-line-break: after-white-space;
     display: block;
 
-    min-height: 108px;
+    min-height: 115px;
 }
 
 
@@ -670,12 +670,12 @@ footer {
 
 	#typetwo {
 		font-size: 54px;
-		min-height: 81px;
+		min-height: 76px;
 	}
 
 	#typethree {
 		font-size: 54px;
-		min-height: 81px;
+		min-height: 76px;
 	}
  }
 
@@ -801,12 +801,12 @@ footer {
 
 	#typetwo {
 		font-size: 48px;
-		min-height: 72px;
+		min-height: 68px;
 	}
 
 	#typethree {
 		font-size: 48px;
-		min-height: 72px;
+		min-height: 68px;
 	}
 }
 
@@ -823,12 +823,12 @@ footer {
 
 	#typetwo {
 		font-size: 42px;
-		min-height: 63px;
+		min-height: 59px;
 	}
 
 	#typethree {
 		font-size: 42px;
-		min-height: 63px;
+		min-height: 59px;
 	}
 
 
