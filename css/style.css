@@ -182,6 +182,7 @@ table {
 
 body {
 	background-color: #000;
+	background: radial-gradient(#e66465, #9198e5);
 	/*background-image: url("../img/noise.gif");
     background-repeat: repeat;*/
 	-webkit-font-smoothing: antialiased;
@@ -324,12 +325,13 @@ textarea {
 }
 
 #type {
-	background-color: #000;
+	/*background-color: #000;*/
 	width: 100%;
 	font-family: HNIR Extended;
 	font-size: 82px;
 	line-height: 150%;
-	color: #5097ff;
+	/*color: #5097ff;*/
+	color: #000;
 	
 
     -webkit-user-modify: read-write;
@@ -341,12 +343,13 @@ textarea {
 }
 
 #typetwo {
-	background-color: #000;
+	/*background-color: #000;*/
 	width: 100%;
 	font-family: Onet Regular;
 	font-size: 82px;
 	line-height: 140%;
-	color: #F2EB99;
+	/*color: #F2EB99;*/
+	color: #000;
 
     -webkit-user-modify: read-write;
     word-wrap: break-word;
@@ -357,12 +360,13 @@ textarea {
 }
 
 #typethree {
-	background-color: #000;
+	/*background-color: #000;*/
 	width: 100%;
 	font-family: Half;
 	font-size: 82px;
 	line-height: 140%;
-	color: #8b5efc;
+	/*color: #8b5efc;*/
+	color: #000;
 
     -webkit-user-modify: read-write;
     word-wrap: break-word;
