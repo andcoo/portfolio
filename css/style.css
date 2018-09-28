@@ -182,7 +182,7 @@ table {
 
 body {
 	background-color: #000;
-	background: radial-gradient(#e66465, #9198e5);
+	/*background: radial-gradient(#e66465, #9198e5);*/
 	/*background-image: url("../img/noise.gif");
     background-repeat: repeat;*/
 	-webkit-font-smoothing: antialiased;
@@ -331,7 +331,7 @@ textarea {
 	font-size: 82px;
 	line-height: 150%;
 	/*color: #5097ff;*/
-	color: #000;
+	color: #FFF;
 	
 
     -webkit-user-modify: read-write;
@@ -349,7 +349,7 @@ textarea {
 	font-size: 82px;
 	line-height: 140%;
 	/*color: #F2EB99;*/
-	color: #000;
+	color: #FFF;
 
     -webkit-user-modify: read-write;
     word-wrap: break-word;
@@ -366,7 +366,7 @@ textarea {
 	font-size: 82px;
 	line-height: 140%;
 	/*color: #8b5efc;*/
-	color: #000;
+	color: #FFF;
 
     -webkit-user-modify: read-write;
     word-wrap: break-word;
