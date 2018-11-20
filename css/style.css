@@ -181,12 +181,19 @@ table {
 /*-------------------- BASIC LAYOUT ---------------------*/
 
 body {
-	background-color: #000;
-	/*background: radial-gradient(#e66465, #9198e5);*/
+/*	background-color: #383c31;
+*/	background-color: #000;
+	/*background: radial-gradient(#e66465, #9198e5);
 	/*background-image: url("../img/noise.gif");
     background-repeat: repeat;*/
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+}
+
+.colourbg {
+	/*background-color: #383c31;*/
+	background-color: #907282;
+	
 }
 
 .wrapper {
@@ -292,23 +299,23 @@ h2 {
 h3 {
 	font-family: WorkSans-Light;
 	font-size: 46px;
-	line-height: 120%;
+	line-height: 100%;
 	color: #FFF;
 	margin-left: -4px;
 	margin-top: 2px;
-	line-height: 100%;
+	line-height: 115%;
 	/*line-height: 130%;*/
 }	
 
 h4 {
 	font-family: WorkSans-Light;
 	font-size: 46px;
-	line-height: 120%;
+	line-height: 100%;
 	color: #FFF;
 	margin-left: -4px;
 	margin-top: 2px;
 	/*line-height: 100%;*/
-	line-height: 120%;
+	line-height: 115%;
 }	
 
 
