@@ -304,7 +304,7 @@ h2 {
 
 h3 {
 	font-family: WorkSans-Light;
-	font-size: 46px;
+	font-size: 32px;
 	line-height: 100%;
 	color: #FFF;
 	margin-left: -4px;
@@ -315,7 +315,7 @@ h3 {
 
 h4 {
 	font-family: WorkSans-Light;
-	font-size: 46px;
+	font-size: 32px;
 	line-height: 100%;
 	color: #FFF;
 	margin-left: -4px;
@@ -771,12 +771,12 @@ footer {
 	}
 
 	h3 {
-		font-size: 30px;
+		font-size: 24px;
 		margin-left: -2px;
 	}
 
 	h4 {
-		font-size: 30px;
+		font-size: 24px;
 		margin-left: -2px;
 	}
 
